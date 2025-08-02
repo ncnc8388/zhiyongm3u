@@ -1,4 +1,38 @@
 #EXTM3U
+#EXTINF:-1 tvg-name=" CCTV-1综合" tvg-logo="https://live.fanmingming.cn/tv/ CCTV-1综合.png" group-title="央视频道", CCTV-1综合
+http://219.150.217.47:6610/PLTV1/40/index.m3u8?icpid=dxrm1
+#EXTINF:-1 tvg-name=" CCTV-2财经" tvg-logo="https://live.fanmingming.cn/tv/ CCTV-2财经.png" group-title="央视频道", CCTV-2财经
+http://219.150.217.47:6610/PLTV1/60/index.m3u8?icpid=dxrm1
+#EXTINF:-1 tvg-name=" CCTV-3综艺" tvg-logo="https://live.fanmingming.cn/tv/ CCTV-3综艺.png" group-title="央视频道", CCTV-3综艺
+http://219.150.217.47:6610/PLTV1/80/index.m3u8?icpid=dxrm1
+#EXTINF:-1 tvg-name=" CCTV-4中文国际" tvg-logo="https://live.fanmingming.cn/tv/ CCTV-4中文国际.png" group-title="央视频道", CCTV-4中文国际
+http://219.150.217.47:6610/PLTV1/100/index.m3u8?icpid=dxrm1
+#EXTINF:-1 tvg-name=" CCTV-5体育" tvg-logo="https://live.fanmingming.cn/tv/ CCTV-5体育.png" group-title="央视频道", CCTV-5体育
+http://219.150.217.47:6610/PLTV1/120/index.m3u8?icpid=dxrm1
+#EXTINF:-1 tvg-name=" CCTV-6电影" tvg-logo="https://live.fanmingming.cn/tv/ CCTV-6电影.png" group-title="央视频道", CCTV-6电影
+http://219.150.217.47:6610/PLTV1/140/index.m3u8?icpid=dxrm1
+#EXTINF:-1 tvg-name=" CCTV-7国防军事" tvg-logo="https://live.fanmingming.cn/tv/ CCTV-7国防军事.png" group-title="央视频道", CCTV-7国防军事
+http://219.150.217.47:6610/PLTV1/160/index.m3u8?icpid=dxrm1
+#EXTINF:-1 tvg-name=" CCTV-8电视剧" tvg-logo="https://live.fanmingming.cn/tv/ CCTV-8电视剧.png" group-title="央视频道", CCTV-8电视剧
+http://219.150.217.47:6610/PLTV1/180/index.m3u8?icpid=dxrm1
+#EXTINF:-1 tvg-name=" CCTV-9纪录" tvg-logo="https://live.fanmingming.cn/tv/ CCTV-9纪录.png" group-title="央视频道", CCTV-9纪录
+http://219.150.217.47:6610/PLTV1/200/index.m3u8?icpid=dxrm1
+#EXTINF:-1 tvg-name=" CCTV-10科教" tvg-logo="https://live.fanmingming.cn/tv/ CCTV-10科教.png" group-title="央视频道", CCTV-10科教
+http://219.150.217.47:6610/PLTV1/220/index.m3u8?icpid=dxrm1
+#EXTINF:-1 tvg-name=" CCTV-11戏曲" tvg-logo="https://live.fanmingming.cn/tv/ CCTV-11戏曲.png" group-title="央视频道", CCTV-11戏曲
+http://219.150.217.47:6610/PLTV1/240/index.m3u8?icpid=dxrm1
+#EXTINF:-1 tvg-name=" CCTV-12社会与法" tvg-logo="https://live.fanmingming.cn/tv/ CCTV-12社会与法.png" group-title="央视频道", CCTV-12社会与法
+http://219.150.217.47:6610/PLTV1/260/index.m3u8?icpid=dxrm1
+#EXTINF:-1 tvg-name=" CCTV-13新闻" tvg-logo="https://live.fanmingming.cn/tv/ CCTV-13新闻.png" group-title="央视频道", CCTV-13新闻
+http://219.150.217.47:6610/PLTV1/280/index.m3u8?icpid=dxrm1
+#EXTINF:-1 tvg-name=" CCTV-14少儿" tvg-logo="https://live.fanmingming.cn/tv/ CCTV-14少儿.png" group-title="央视频道", CCTV-14少儿
+http://219.150.217.47:6610/PLTV1/300/index.m3u8?icpid=dxrm1
+#EXTINF:-1 tvg-name=" CCTV-15音乐" tvg-logo="https://live.fanmingming.cn/tv/ CCTV-15音乐.png" group-title="央视频道", CCTV-15音乐
+http://219.150.217.47:6610/PLTV1/320/index.m3u8?icpid=dxrm1
+#EXTINF:-1 tvg-name=" CCTV-17" tvg-logo="https://live.fanmingming.cn/tv/ CCTV-17.png" group-title="央视频道", CCTV-17
+http://219.150.217.47:6610/PLTV1/360/index.m3u8?icpid=dxrm1
+#EXTINF:-1 tvg-name=" CCTV-5+体育赛事" tvg-logo="https://live.fanmingming.cn/tv/ CCTV-5+体育赛事.png" group-title="央视频道", CCTV-5+体育赛事
+http://219.150.217.47:6610/PLTV1/380/index.m3u8?icpid=dxrm1
 #EXTINF:-1 tvg-name="CCTV-1综合" tvg-logo="https://live.fanmingming.cn/tv/CCTV-1综合.png" group-title="央视频道",CCTV-1综合
 http://1.192.242.184:8188/rtp/239.16.20.1:10010
 #EXTINF:-1 tvg-name="CCTV-2财经" tvg-logo="https://live.fanmingming.cn/tv/CCTV-2财经.png" group-title="央视频道",CCTV-2财经
