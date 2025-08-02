@@ -1,0 +1,24 @@
+name: Sync Between Projects
+on:
+  push:
+    paths:
+      - 'zhiyongm3u/best_sorted.m3u'  # 监控源文件变化
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Copy files
+        run: |
+          mkdir -p ncnc8388.github.io/henan
+          cp -f zhiyongm3u/best_sorted.m3u ncnc8388.github.io/henan/hndx.m3u
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          
+      - name: Commit changes
+        run: |
+          git add .
+          git commit -m "Auto-sync from projectA [skip ci]"
+          git push
