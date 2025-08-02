@@ -71,7 +71,7 @@ def load_province_channels(directory="IPTV"):
 # 正规化 CCTV 频道名称
 def normalize_cctv_name(channel_name):
     """将 CCTV 频道名称进行正规化，例如 CCTV-1 -> CCTV1"""
-    return re.sub(r'CCTV[-]?(\d+)(.*)', r'CCTV\1', channel_name)
+    return re.sub(r'CCTV[-]?(\d+)(.*)', r'CCTV\1', channel_name.strip())
 
 
 # 从 TXT 文件中提取 IPTV 链接
@@ -108,7 +108,7 @@ def extract_urls_from_m3u(content,ppp):
         elif line.startswith(('http://', 'https://')):
             if ppp =='河南':
                 urls.append((channel, line))  # 存
-            elif  any(gzcy in line for gzcy in gzc):
+            elif  any(gzcy in channel for gzcy in gzc):
                 urls.append((channel, line))  # 存储频道和 URL 的元组
     return urls
 
@@ -340,6 +340,7 @@ if __name__ == "__main__":
     # 执行主函数
 
     asyncio.run(main(file_urls, cctv_channel_file, province_channel_files))
+
 
 
 
