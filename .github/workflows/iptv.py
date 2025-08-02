@@ -252,13 +252,13 @@ def generate_sorted_m3u(valid_urls, cctv_channels, province_channels, filename):
 
     # 写入 M3U 文件
     with open(filename, 'w', encoding='utf-8') as f:
-        for urlxx in valid_urls:
-            f.write(str(urlxx) + '\n')
-        f.write("#EXTM3U\n")
-      #  for channel_info in all_channels:
-       #     f.write(
-         #       f"#EXTINF:-1 tvg-name=\"{channel_info['channel']}\" tvg-logo=\"{channel_info['logo']}\" group-title=\"{channel_info['group_title']}\",{channel_info['channel']}\n")
-        #    f.write(f"{channel_info['url']}\n")
+       # for urlxx in valid_urls:
+          #  f.write(str(urlxx) + '\n')
+       # f.write("#EXTM3U\n")
+        for channel_info in all_channels:
+            f.write(
+                f"#EXTINF:-1 tvg-name=\"{channel_info['channel']}\" tvg-logo=\"{channel_info['logo']}\" group-title=\"{channel_info['group_title']}\",{channel_info['channel']}\n")
+            f.write(f"{channel_info['url']}\n")
 
 
 
@@ -335,6 +335,7 @@ if __name__ == "__main__":
     # 执行主函数
 
     asyncio.run(main(file_urls, cctv_channel_file, province_channel_files))
+
 
 
 
