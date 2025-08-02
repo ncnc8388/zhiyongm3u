@@ -183,7 +183,7 @@ def generate_sorted_m3u(valid_urls, cctv_channels, province_channels, filename):
     satellite_channels = []
     other_channels = []
     keywords = get_dynamic_keywords()
-
+    print(valid_urls)
     for channel, url in valid_urls:
         if contains_date(channel) or contains_date(url):
             continue  # 过滤掉包含日期格式的频道
@@ -332,3 +332,4 @@ if __name__ == "__main__":
     # 执行主函数
 
     asyncio.run(main(file_urls, cctv_channel_file, province_channel_files))
+
