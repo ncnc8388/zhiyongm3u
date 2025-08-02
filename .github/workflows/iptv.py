@@ -311,7 +311,7 @@ if __name__ == "__main__":
     # IPTV 文件 URL（您可以添加自己的文件 URL 列表）
     file_urls = [
         "https://fy.188766.xyz/?ip=192.168.1.2",
-        "https://ncnc8388.github.io/河南电信.m3u"
+        "https://raw.githubusercontent.com/ncnc8388/ncnc8388.github.io/refs/heads/main/河南电信.m3u",
         #"https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u",
         "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_四川电信.txt",
         "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_浙江电信.txt",
@@ -340,6 +340,7 @@ if __name__ == "__main__":
     # 执行主函数
 
     asyncio.run(main(file_urls, cctv_channel_file, province_channel_files))
+
 
 
 
