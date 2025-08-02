@@ -48,7 +48,3 @@ jobs:
             git push origin main
           fi
           
-          # 清理备份文件(如果存在)
-          if [ -f "hndx.m3u.bak" ]; then
-            rm henan.m3u.bak
-          fi
