@@ -254,7 +254,7 @@ def generate_sorted_m3u(valid_urls, cctv_channels, province_channels, filename):
     with open(filename, 'w', encoding='utf-8') as f:
        # for urlxx in valid_urls:
           #  f.write(str(urlxx) + '\n')
-       # f.write("#EXTM3U\n")
+        f.write("#EXTM3U\n")
         for channel_info in all_channels:
             f.write(
                 f"#EXTINF:-1 tvg-name=\"{channel_info['channel']}\" tvg-logo=\"{channel_info['logo']}\" group-title=\"{channel_info['group_title']}\",{channel_info['channel']}\n")
@@ -311,8 +311,13 @@ if __name__ == "__main__":
     # IPTV 文件 URL（您可以添加自己的文件 URL 列表）
     file_urls = [
         "https://fy.188766.xyz/?ip=192.168.1.2",
+        "https://ncnc8388.github.io/河南电信.m3u"
         #"https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u",
         "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_四川电信.txt",
+        "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_浙江电信.txt",
+        "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_山西电信.txt",
+        "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_河北电信.txt",
+        "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_甘肃电信.txt",
         "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_河南电信.txt",
         "https://raw.githubusercontent.com/FEIUI/tvbox/refs/heads/master/xiaosa/ITV.txt",
         #"https://tzdr.com/iptv.txt",
@@ -335,6 +340,7 @@ if __name__ == "__main__":
     # 执行主函数
 
     asyncio.run(main(file_urls, cctv_channel_file, province_channel_files))
+
 
 
 
