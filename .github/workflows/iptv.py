@@ -163,6 +163,7 @@ async def read_and_test_file(file_path, is_m3u=False):
 
         # 测试 URL 的可用性
         valid_urls = []
+        print(entries)
        # results = await test_multiple_streams(entries)
        # for (is_valid, _), (channel, url) in zip(results, entries):
           #  if is_valid:
@@ -340,6 +341,7 @@ if __name__ == "__main__":
     # 执行主函数
 
     asyncio.run(main(file_urls, cctv_channel_file, province_channel_files))
+
 
 
 
