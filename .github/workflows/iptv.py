@@ -78,6 +78,7 @@ def normalize_cctv_name(channel_name):
 def extract_urls_from_txt(content,ppp):
     """从 TXT 文件中提取 IPTV 链接"""
     urls = []
+    gzc = ["凤凰", "咪咕视频", "睛彩"]
     for line in content.splitlines():
         line = line.strip()
         if line and ',' in line:  # 格式应该是: <频道名>,<URL>
@@ -85,7 +86,7 @@ def extract_urls_from_txt(content,ppp):
             if ppp =='河南':
                 urls.append(parts)  # 提取频道名和 URL
             else:
-                if'凤凰' in line:
+                if any(gzcy in line for gzcy in gzc):
                     urls.append(parts)  # 提取频道名和 URL
 
     return urls
@@ -97,7 +98,7 @@ def extract_urls_from_m3u(content,ppp):
     urls = []
     lines = content.splitlines()
     channel = "Unknown"
-
+    gzc = ["凤凰", "咪咕视频", "睛彩"]
     for line in lines:
         line = line.strip()
         if line.startswith("#EXTINF:"):
@@ -107,7 +108,7 @@ def extract_urls_from_m3u(content,ppp):
         elif line.startswith(('http://', 'https://')):
             if ppp =='河南':
                 urls.append((channel, line))  # 存
-            elif '凤凰' in channel:
+            elif  any(gzcy in line for gzcy in gzc):
                 urls.append((channel, line))  # 存储频道和 URL 的元组
     return urls
 
@@ -307,9 +308,10 @@ if __name__ == "__main__":
     # IPTV 文件 URL（您可以添加自己的文件 URL 列表）
     file_urls = [
         "https://fy.188766.xyz/?ip=192.168.1.2",
-        #"https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u",
-        "https://gh-proxy.com/raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_四川电信.txt",
-        "https://gh-proxy.com/raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_河南电信.txt",
+        #"https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u",
+        "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_四川电信.txt",
+        "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_河南电信.txt",
+        "https://raw.githubusercontent.com/FEIUI/tvbox/refs/heads/master/xiaosa/ITV.txt",
         #"https://tzdr.com/iptv.txt",
         #"https://live.kilvn.com/iptv.m3u",
         #"https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u",
@@ -328,4 +330,5 @@ if __name__ == "__main__":
     ]
 
     # 执行主函数
+
     asyncio.run(main(file_urls, cctv_channel_file, province_channel_files))
