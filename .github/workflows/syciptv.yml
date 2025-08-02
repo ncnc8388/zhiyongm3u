@@ -15,7 +15,7 @@ jobs:
 
       - name: Verify source file exists
         run: |
-          if [ ! -f "zz.m3u" ]; then
+          if [ ! -f "best_sorted.m3u" ]; then
             echo "Error: zz.m3u not found in root directory!"
             exit 1
           fi
