@@ -1,24 +1,54 @@
-name: Sync Between Projects
+name: Enhanced Sync M3U File
+
 on:
+  workflow_dispatch:
   push:
     paths:
-      - 'zhiyongm3u/best_sorted.m3u'  # 监控源文件变化
+      - 'best_sorted.m3u'
 
 jobs:
-  sync:
+  sync-file:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      
-      - name: Copy files
+      - name: Checkout source repo
+        uses: actions/checkout@v3
+
+      - name: Verify source file exists
         run: |
-          mkdir -p ncnc8388.github.io/henan
-          cp -f zhiyongm3u/best_sorted.m3u ncnc8388.github.io/henan/hndx.m3u
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
+          if [ ! -f "zz.m3u" ]; then
+            echo "Error: zz.m3u not found in root directory!"
+            exit 1
+          fi
+
+      - name: Clone target repo
+        run: |
+          git clone https://${{ secrets.SOURCE_REPO_TOKEN }}@github.com/ncnc8388/ncnc8388.github.io.git
+          cd ncnc8388.github.io
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+
+      - name: Sync file with backup
+        run: |
+          # 备份旧文件(如果存在)
+          if [ -f "ncnc8388.github.io/hndx.m3u" ]; then
+            cp ncnc8388.github.io/hndx.m3u ncnc8388.github.io/hndx.m3u.bak
+          fi
           
-      - name: Commit changes
+          # 复制新文件
+          cp -v best_sorted.m3u ncnc8388.github.io/hndx.m3u
+
+      - name: Commit and push
         run: |
-          git add .
-          git commit -m "Auto-sync from projectA [skip ci]"
-          git push
+          cd ncnc8388.github.io
+          git add hndx.m3u
+          if git diff-index --quiet HEAD --; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update hndx.m3u from zhidou repo [$(date +'%Y-%m-%d %H:%M')]"
+            git push origin main
+          fi
+          
+          # 清理备份文件(如果存在)
+          if [ -f "hndx.m3u.bak" ]; then
+            rm henan.m3u.bak
+          fi
