@@ -1,6 +1,8 @@
 name: Enhanced Sync M3U File
 
 on:
+  schedule:
+      - cron: '0 18 * * *'  # 每天UTC 18:00
   workflow_dispatch:
   push:
     paths:
