@@ -299,7 +299,7 @@ async def main(file_urls, cctv_channel_file, province_channel_files):
         elif file_url.endswith('.txt'):
             valid_urls = await read_and_test_file(file_url, is_m3u=False)
         else:
-            valid_urls = []
+            valid_urls = await read_and_test_file(file_url, is_m3u=True)
 
         all_valid_urls.extend(valid_urls)
 
@@ -340,6 +340,7 @@ if __name__ == "__main__":
     # 执行主函数
 
     asyncio.run(main(file_urls, cctv_channel_file, province_channel_files))
+
 
 
 
