@@ -23,7 +23,7 @@ jobs:
     - name: Update
       run: |
         # 央视源
-        rm -f fg.m3u && wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O fg.m3u
+        rm -f fg.m3u && wget https://1303157606-jbnue8hg1f.ap-guangzhou.tencentscf.com/?url=https://fy.188766.xyz/?ip=192.168.1.2&bconly=true -O fg.m3u
         
 
        
