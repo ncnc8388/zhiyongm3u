@@ -98,7 +98,7 @@ def extract_urls_from_m3u(content,ppp):
     urls = []
     lines = content.splitlines()
     channel = "Unknown"
-    gzc = ["凤凰", "咪咕视频", "睛彩","鳳凰"]
+    gzc = ["凤凰", "咪咕视频", "睛彩","鳳凰","日"]
     for line in lines:
         line = line.strip()
         if line.startswith("#EXTINF:"):
@@ -347,6 +347,7 @@ if __name__ == "__main__":
     # 执行主函数
 
     asyncio.run(main(file_urls, cctv_channel_file, province_channel_files))
+
 
 
 
