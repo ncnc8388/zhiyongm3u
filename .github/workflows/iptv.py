@@ -78,7 +78,7 @@ def normalize_cctv_name(channel_name):
 def extract_urls_from_txt(content,ppp):
     """从 TXT 文件中提取 IPTV 链接"""
     urls = []
-    gzc = ["凤凰", "咪咕视频", "睛彩","鳳凰","日"]
+    gzc = ["凤凰", "咪咕视频", "睛彩","鳳凰","日","中天"]
     for line in content.splitlines():
         line = line.strip()
         if line and ',' in line:  # 格式应该是: <频道名>,<URL>
@@ -98,7 +98,7 @@ def extract_urls_from_m3u(content,ppp):
     urls = []
     lines = content.splitlines()
     channel = "Unknown"
-    gzc = ["凤凰", "咪咕视频", "睛彩","鳳凰","日"]
+    gzc = ["凤凰", "咪咕视频", "睛彩","鳳凰","日","中天"]
     for line in lines:
         line = line.strip()
         if line.startswith("#EXTINF:"):
@@ -347,6 +347,7 @@ if __name__ == "__main__":
     # 执行主函数
 
     asyncio.run(main(file_urls, cctv_channel_file, province_channel_files))
+
 
 
 
