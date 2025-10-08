@@ -148,7 +148,7 @@ async def read_and_test_file(file_path, is_m3u=False):
         async with aiohttp.ClientSession(cookie_jar=None) as session:  # 禁用 cookie 处理
             async with session.get(file_path) as response:
                 content = await response.text()
-
+        print(content)
         # 提取 URL
         if is_m3u:
             if '河南' in file_path:
@@ -311,7 +311,7 @@ async def main(file_urls, cctv_channel_file, province_channel_files):
 if __name__ == "__main__":
     # IPTV 文件 URL（您可以添加自己的文件 URL 列表）
     file_urls = [
-        "https://fy.188766.xyz/?ip=192.168.1.2&mishitong=false&lunbo=false&bconly=true&mima=mianfeidehaimaiqian",
+        "https://mp.leuse.top/proxy?single=true&url=https://fy.188766.xyz/?ip=192.168.1.2&mishitong=false&lunbo=false&bconly=true&mima=mianfeidehaimaiqian",
         "https://aktv.space/live.m3u",
         #"https://1303157606-jbnue8hg1f.ap-guangzhou.tencentscf.com/?url=https://fy.188766.xyz/?ip=192.168.1.2&bconly=true",
         #"https://raw.githubusercontent.com/ncnc8388/genxinxia/refs/heads/main/fg.m3u",
@@ -347,6 +347,7 @@ if __name__ == "__main__":
     # 执行主函数
 
     asyncio.run(main(file_urls, cctv_channel_file, province_channel_files))
+
 
 
 
