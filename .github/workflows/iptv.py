@@ -313,7 +313,7 @@ if __name__ == "__main__":
     file_urls = [
         #"https://mp.leuse.top/proxy?single=true&url=https://fy.188766.xyz/?ip=192.168.1.2&mishitong=false&lunbo=false&bconly=true&mima=mianfeidehaimaiqian",
         "https://aktv.space/live.m3u",
-        "https://1303157606-jbnue8hg1f.ap-guangzhou.tencentscf.com/?url=https://fy.188766.xyz/?ip=192.168.1.2&mishitong=false&lunbo=false&bconly=true&mima=mianfeidehaimaiqian",
+        "https://1303157606-jbnue8hg1f.ap-guangzhou.tencentscf.com/?url=https://fy.188766.xyz/?ip=&lunbo=false&mima=mianfeidehaimaiqian",
         #"https://raw.githubusercontent.com/ncnc8388/genxinxia/refs/heads/main/fg.m3u",
         "https://raw.githubusercontent.com/ncnc8388/ncnc8388.github.io/refs/heads/main/河南电信.m3u",
         #"https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u",
@@ -347,6 +347,7 @@ if __name__ == "__main__":
     # 执行主函数
 
     asyncio.run(main(file_urls, cctv_channel_file, province_channel_files))
+
 
 
 
