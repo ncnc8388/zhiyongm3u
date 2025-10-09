@@ -148,7 +148,7 @@ async def read_and_test_file(file_path, is_m3u=False):
         async with aiohttp.ClientSession(cookie_jar=None) as session:  # 禁用 cookie 处理
             async with session.get(file_path) as response:
                 content = await response.text()
-       # print(content)
+        print(content)
         # 提取 URL
         if is_m3u:
             if '河南' in file_path:
@@ -348,6 +348,7 @@ if __name__ == "__main__":
     # 执行主函数
 
     asyncio.run(main(file_urls, cctv_channel_file, province_channel_files))
+
 
 
 
