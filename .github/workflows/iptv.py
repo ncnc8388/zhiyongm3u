@@ -310,7 +310,7 @@ async def main(file_urls, cctv_channel_file, province_channel_files):
 
 if __name__ == "__main__":
     # IPTV 文件 URL（您可以添加自己的文件 URL 列表）
-    file_urls = [
+    base_urls = [
         "https://mp.leuse.top/proxy?single=true&url=https://fy.188766.xyz/?ip=&lunbo=false&mima=mianfeidehaimaiqian",
         "https://aktv.space/live.m3u",
         #"https://ncncha.3vdo.club/getm3u8.asp?url=https://fy.188766.xyz/?ip=&lunbo=false&mima=mianfeidehaimaiqian",
@@ -335,7 +335,8 @@ if __name__ == "__main__":
 
         "https://m3u.ibert.me/ycl_iptv.m3u"
     ]
-
+    aktv_url = f"http://cgzfxxqg.dynv6.net/aa.m3u?t={int(time.time())}"
+    file_urls = base_urls + [aktv_url]
     # CCTV 频道文件（例如 IPTV/CCTV.txt）
     cctv_channel_file = ".github/workflows/IPTV/CCTV.txt"
 
@@ -348,6 +349,7 @@ if __name__ == "__main__":
     # 执行主函数
 
     asyncio.run(main(file_urls, cctv_channel_file, province_channel_files))
+
 
 
 
