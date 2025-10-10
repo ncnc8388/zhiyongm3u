@@ -335,7 +335,7 @@ if __name__ == "__main__":
 
         "https://m3u.ibert.me/ycl_iptv.m3u"
     ]
-    aktv_url = f"http://cgzfxxqg.dynv6.net/aa.m3u?t={int(time.time())}"
+    aktv_url = f"http://cgzfxxqg.dynv6.net:8087/aa.m3u?t={int(time.time())}"
     file_urls = base_urls + [aktv_url]
     print(file_urls)
     # CCTV 频道文件（例如 IPTV/CCTV.txt）
@@ -350,6 +350,7 @@ if __name__ == "__main__":
     # 执行主函数
 
     asyncio.run(main(file_urls, cctv_channel_file, province_channel_files))
+
 
 
 
