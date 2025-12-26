@@ -130,10 +130,6 @@ https://mgev.188766.xyz/?migutoken=5fc9ece7e8ce3159ce33e6a2d0e9a453&id=fhzw&pp=1
 #EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.cn/tv/凤凰中文.png" group-title="港澳频道",凤凰中文
 https://mgev.188766.xyz/?migutoken=4487c5141053e2cba5fa1bdf0409a78d&id=hk_fhzw&type=dy
 #EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.cn/tv/凤凰中文.png" group-title="港澳频道",凤凰中文
-https://mgev.188766.xyz/?migutoken=5fc9ece7e8ce3159ce33e6a2d0e9a453&id=fhzw&pp=1
-#EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.cn/tv/凤凰中文.png" group-title="港澳频道",凤凰中文
-https://mgev.188766.xyz/?migutoken=4487c5141053e2cba5fa1bdf0409a78d&id=hk_fhzw&type=dy
-#EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.cn/tv/凤凰中文.png" group-title="港澳频道",凤凰中文
 http://171.213.146.181:8188/udp/239.93.0.162:2192
 #EXTINF:-1 tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.cn/tv/凤凰中文.png" group-title="港澳频道",凤凰中文
 http://171.213.149.208:8188/udp/239.93.0.162:2192
@@ -186,10 +182,6 @@ https://mgev.188766.xyz/?migutoken=70e13bc7ed25e6566766b74c5d17d6fe&id=fhzx&pp=1
 #EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.cn/tv/凤凰资讯.png" group-title="港澳频道",凤凰资讯
 https://mgev.188766.xyz/?migutoken=85b1b6b5ff7fc5b9aec75bcdeb186228&id=hk_fhzx&type=dy
 #EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.cn/tv/凤凰资讯.png" group-title="港澳频道",凤凰资讯
-https://mgev.188766.xyz/?migutoken=70e13bc7ed25e6566766b74c5d17d6fe&id=fhzx&pp=1
-#EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.cn/tv/凤凰资讯.png" group-title="港澳频道",凤凰资讯
-https://mgev.188766.xyz/?migutoken=85b1b6b5ff7fc5b9aec75bcdeb186228&id=hk_fhzx&type=dy
-#EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.cn/tv/凤凰资讯.png" group-title="港澳频道",凤凰资讯
 http://171.213.146.181:8188/udp/239.93.0.118:2191
 #EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.cn/tv/凤凰资讯.png" group-title="港澳频道",凤凰资讯
 http://171.213.149.208:8188/udp/239.93.0.118:2191
@@ -215,10 +207,6 @@ http://175.8.182.132:7878/udp/239.76.246.135:1234
 http://58.46.71.19:8188/udp/239.76.253.135:9000
 #EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.cn/tv/凤凰资讯.png" group-title="港澳频道",凤凰资讯
 http://58.46.71.19:8188/udp/239.76.246.135:1234
-#EXTINF:-1 tvg-name="凤凰香港" tvg-logo="https://live.fanmingming.cn/tv/凤凰香港.png" group-title="港澳频道",凤凰香港
-https://mgev.188766.xyz/?migutoken=bd592272db96d6426082408ac916b3a9&id=fhhk&pp=1
-#EXTINF:-1 tvg-name="凤凰香港" tvg-logo="https://live.fanmingming.cn/tv/凤凰香港.png" group-title="港澳频道",凤凰香港
-https://mgev.188766.xyz/?migutoken=28ab54d9227b158ef456c6a71afceecb&id=hk_fhhk&type=dy
 #EXTINF:-1 tvg-name="凤凰香港" tvg-logo="https://live.fanmingming.cn/tv/凤凰香港.png" group-title="港澳频道",凤凰香港
 https://mgev.188766.xyz/?migutoken=bd592272db96d6426082408ac916b3a9&id=fhhk&pp=1
 #EXTINF:-1 tvg-name="凤凰香港" tvg-logo="https://live.fanmingming.cn/tv/凤凰香港.png" group-title="港澳频道",凤凰香港
@@ -413,8 +401,166 @@ https://mgev.188766.xyz/play?migutoken=c7e64ce73c49b456abc78e537f28f72d&id=U1Vkn
 https://mgev.188766.xyz/play?migutoken=bb8b142e83e89cd55fc9b22508fcd617&id=TG3Vn3iwIkUJVZYZuX1cRBkXOPQxJkC4f5kkVRP9OvM%2Fcqpgku8y4FiRp7hbUDhvGAOzvWUwWckZniuKP7i%2F%2FgDyZ1AMz0b4a4bMUfOvQCN55h4JLjWP0JuxsDY%2B3hdNGp7U%2FH0bQWPtMd7X%2FHu9NiM3YBkFwLRqLFaUbhmIE4S0S7BAj7VzYyBBmE9k58ORQORZyLEhPOi4gijP0u%2FTtPvUAEP8bhM86dZl5hgi8qVuGsrFzMC%2BdwFzcm8RDnr0N3uWUgj9c7ctujygA6Cp9ur6Gtex1K3Ux3axoJmn4oIu8BAhwcvPW9OAzYFPL7oI&name=aWKJuOy6BT9WJ5PdqToCWx60azQaQoozjPipiTDIcc1ID7o4dEFZAg68AobmPpWOfJNTMr1%2B70i8PPOwewNLcyZld0JI6bIPj%2Fsri3aXrwOIrxvWqvAjlO6clFIRw8KU
 #EXTINF:-1 tvg-name="12月26日20:00_NBA经典赛_NBA常规赛精彩回顾：独行侠vs勇士" tvg-logo="https://live.fanmingming.cn/tv/12月26日20:00_NBA经典赛_NBA常规赛精彩回顾：独行侠vs勇士.png" group-title="冰茶体育",12月26日20:00_NBA经典赛_NBA常规赛精彩回顾：独行侠vs勇士
 https://mgev.188766.xyz/play?migutoken=d2de31174ebcec9f4d2443aa00d58ccb&id=u2LO2qtejQkBv0MgPwWjVmTIUXvVS%2BQC8t%2BQggWfRyW5V60kkQeTvwlmcOjCCESKjGBX%2BTsfGi%2FX7VTzb3tQb4rbXQAlhDgyn3wp1E5PmXECSvIbAdxWL3ydFK%2F8bHNAwdrFgSgLPFLGdxVtnlbnUpkJusBiksixVCi5%2FZJ7IofSwa3cI5fKbhxbSQyMF%2BtyngL8LikKH73VWKFG2oB3o6uEuzON2GfPZ7Zk9wScYpOvjfOf2%2FXPIH1QYgJeBwB3Dp0sw8tYlARrcZD6jDH%2FsjSCYuXCC8qm88E6EL%2FBm38tlrwVKML5drMQOYcIP8q0&name=nlawMgC3CEzhl8H3w8tMv3pnZs%2FtQdDpQ7k2y%2BjsJszcTb10xlB0X3Eh9YC3946%2FPlxZSOiV%2Fb6EDXcKy2F05g8PJGsiQqt1hvyPSHPq0SnD1SaXtjAIC%2BT3%2Bba9btc9
-#EXTINF:-1 tvg-name="12月09日_咪咕老封号_咪咕体育看咪视界" tvg-logo="https://live.fanmingming.cn/tv/12月09日_咪咕老封号_咪咕体育看咪视界.png" group-title="河南频道",12月09日_咪咕老封号_咪咕体育看咪视界
-https://188766.xyz/yu
+#EXTINF:-1 tvg-name="咪视界-1-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-1-冰茶专用.png" group-title="冰茶体育",咪视界-1-冰茶专用
+https://msj.188766.xyz/play?id=3000000001000005308&token=07045d9507045d9507045d9507045d95
+#EXTINF:-1 tvg-name="咪视界-1-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-1-移动或影视专用.png" group-title="冰茶体育",咪视界-1-移动或影视专用
+https://msj.188766.xyz/play?id=3000000001000005308&token=07045d9507045d9507045d9507045d95&client=ys
+#EXTINF:-1 tvg-name="咪视界-10-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-10-冰茶专用.png" group-title="冰茶体育",咪视界-10-冰茶专用
+https://msj.188766.xyz/play?id=3000000001000031494&token=072cd770072cd770072cd770072cd770
+#EXTINF:-1 tvg-name="咪视界-10-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-10-移动或影视专用.png" group-title="冰茶体育",咪视界-10-移动或影视专用
+https://msj.188766.xyz/play?id=3000000001000031494&token=072cd770072cd770072cd770072cd770&client=ys
+#EXTINF:-1 tvg-name="咪视界-11-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-11-冰茶专用.png" group-title="冰茶体育",咪视界-11-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000000097&token=a79d4f2fa79d4f2fa79d4f2fa79d4f2f
+#EXTINF:-1 tvg-name="咪视界-11-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-11-移动或影视专用.png" group-title="冰茶体育",咪视界-11-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000000097&token=a79d4f2fa79d4f2fa79d4f2fa79d4f2f&client=ys
+#EXTINF:-1 tvg-name="咪视界-12-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-12-冰茶专用.png" group-title="冰茶体育",咪视界-12-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000002019&token=a79e36f7a79e36f7a79e36f7a79e36f7
+#EXTINF:-1 tvg-name="咪视界-12-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-12-移动或影视专用.png" group-title="冰茶体育",咪视界-12-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000002019&token=a79e36f7a79e36f7a79e36f7a79e36f7&client=ys
+#EXTINF:-1 tvg-name="咪视界-13-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-13-冰茶专用.png" group-title="冰茶体育",咪视界-13-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000002809&token=a79e54e0a79e54e0a79e54e0a79e54e0
+#EXTINF:-1 tvg-name="咪视界-13-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-13-移动或影视专用.png" group-title="冰茶体育",咪视界-13-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000002809&token=a79e54e0a79e54e0a79e54e0a79e54e0&client=ys
+#EXTINF:-1 tvg-name="咪视界-14-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-14-冰茶专用.png" group-title="冰茶体育",咪视界-14-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000003915&token=a79ecd1ba79ecd1ba79ecd1ba79ecd1b
+#EXTINF:-1 tvg-name="咪视界-14-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-14-移动或影视专用.png" group-title="冰茶体育",咪视界-14-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000003915&token=a79ecd1ba79ecd1ba79ecd1ba79ecd1b&client=ys
+#EXTINF:-1 tvg-name="咪视界-15-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-15-冰茶专用.png" group-title="冰茶体育",咪视界-15-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000004193&token=a79f2468a79f2468a79f2468a79f2468
+#EXTINF:-1 tvg-name="咪视界-15-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-15-移动或影视专用.png" group-title="冰茶体育",咪视界-15-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000004193&token=a79f2468a79f2468a79f2468a79f2468&client=ys
+#EXTINF:-1 tvg-name="咪视界-16-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-16-冰茶专用.png" group-title="冰茶体育",咪视界-16-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000005837&token=a79fb258a79fb258a79fb258a79fb258
+#EXTINF:-1 tvg-name="咪视界-16-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-16-移动或影视专用.png" group-title="冰茶体育",咪视界-16-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000005837&token=a79fb258a79fb258a79fb258a79fb258&client=ys
+#EXTINF:-1 tvg-name="咪视界-17-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-17-冰茶专用.png" group-title="冰茶体育",咪视界-17-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000006077&token=a7a0092ba7a0092ba7a0092ba7a0092b
+#EXTINF:-1 tvg-name="咪视界-17-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-17-移动或影视专用.png" group-title="冰茶体育",咪视界-17-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000006077&token=a7a0092ba7a0092ba7a0092ba7a0092b&client=ys
+#EXTINF:-1 tvg-name="咪视界-18-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-18-冰茶专用.png" group-title="冰茶体育",咪视界-18-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000006658&token=a7a01f74a7a01f74a7a01f74a7a01f74
+#EXTINF:-1 tvg-name="咪视界-18-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-18-移动或影视专用.png" group-title="冰茶体育",咪视界-18-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000006658&token=a7a01f74a7a01f74a7a01f74a7a01f74&client=ys
+#EXTINF:-1 tvg-name="咪视界-19-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-19-冰茶专用.png" group-title="冰茶体育",咪视界-19-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000009788&token=a7a180afa7a180afa7a180afa7a180af
+#EXTINF:-1 tvg-name="咪视界-19-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-19-移动或影视专用.png" group-title="冰茶体育",咪视界-19-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000009788&token=a7a180afa7a180afa7a180afa7a180af&client=ys
+#EXTINF:-1 tvg-name="咪视界-2-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-2-冰茶专用.png" group-title="冰茶体育",咪视界-2-冰茶专用
+https://msj.188766.xyz/play?id=3000000001000005969&token=070474d6070474d6070474d6070474d6
+#EXTINF:-1 tvg-name="咪视界-2-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-2-移动或影视专用.png" group-title="冰茶体育",咪视界-2-移动或影视专用
+https://msj.188766.xyz/play?id=3000000001000005969&token=070474d6070474d6070474d6070474d6&client=ys
+#EXTINF:-1 tvg-name="咪视界-20-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-20-冰茶专用.png" group-title="冰茶体育",咪视界-20-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000010833&token=a7ab83faa7ab83faa7ab83faa7ab83fa
+#EXTINF:-1 tvg-name="咪视界-20-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-20-移动或影视专用.png" group-title="冰茶体育",咪视界-20-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000010833&token=a7ab83faa7ab83faa7ab83faa7ab83fa&client=ys
+#EXTINF:-1 tvg-name="咪视界-21-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-21-冰茶专用.png" group-title="冰茶体育",咪视界-21-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000011297&token=a7abe291a7abe291a7abe291a7abe291
+#EXTINF:-1 tvg-name="咪视界-21-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-21-移动或影视专用.png" group-title="冰茶体育",咪视界-21-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000011297&token=a7abe291a7abe291a7abe291a7abe291&client=ys
+#EXTINF:-1 tvg-name="咪视界-22-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-22-冰茶专用.png" group-title="冰茶体育",咪视界-22-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000011518&token=a7abecdda7abecdda7abecdda7abecdd
+#EXTINF:-1 tvg-name="咪视界-22-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-22-移动或影视专用.png" group-title="冰茶体育",咪视界-22-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000011518&token=a7abecdda7abecdda7abecdda7abecdd&client=ys
+#EXTINF:-1 tvg-name="咪视界-23-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-23-冰茶专用.png" group-title="冰茶体育",咪视界-23-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000012558&token=a7ac61b8a7ac61b8a7ac61b8a7ac61b8
+#EXTINF:-1 tvg-name="咪视界-23-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-23-移动或影视专用.png" group-title="冰茶体育",咪视界-23-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000012558&token=a7ac61b8a7ac61b8a7ac61b8a7ac61b8&client=ys
+#EXTINF:-1 tvg-name="咪视界-24-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-24-冰茶专用.png" group-title="冰茶体育",咪视界-24-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000012616&token=a7ac64fba7ac64fba7ac64fba7ac64fb
+#EXTINF:-1 tvg-name="咪视界-24-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-24-移动或影视专用.png" group-title="冰茶体育",咪视界-24-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000012616&token=a7ac64fba7ac64fba7ac64fba7ac64fb&client=ys
+#EXTINF:-1 tvg-name="咪视界-25-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-25-冰茶专用.png" group-title="冰茶体育",咪视界-25-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000015470&token=a7adbb4aa7adbb4aa7adbb4aa7adbb4a
+#EXTINF:-1 tvg-name="咪视界-25-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-25-移动或影视专用.png" group-title="冰茶体育",咪视界-25-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000015470&token=a7adbb4aa7adbb4aa7adbb4aa7adbb4a&client=ys
+#EXTINF:-1 tvg-name="咪视界-26-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-26-冰茶专用.png" group-title="冰茶体育",咪视界-26-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000015560&token=a7adbeeca7adbeeca7adbeeca7adbeec
+#EXTINF:-1 tvg-name="咪视界-26-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-26-移动或影视专用.png" group-title="冰茶体育",咪视界-26-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000015560&token=a7adbeeca7adbeeca7adbeeca7adbeec&client=ys
+#EXTINF:-1 tvg-name="咪视界-27-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-27-冰茶专用.png" group-title="冰茶体育",咪视界-27-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000017678&token=a7aeab92a7aeab92a7aeab92a7aeab92
+#EXTINF:-1 tvg-name="咪视界-27-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-27-移动或影视专用.png" group-title="冰茶体育",咪视界-27-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000017678&token=a7aeab92a7aeab92a7aeab92a7aeab92&client=ys
+#EXTINF:-1 tvg-name="咪视界-28-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-28-冰茶专用.png" group-title="冰茶体育",咪视界-28-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000019839&token=a7af9b57a7af9b57a7af9b57a7af9b57
+#EXTINF:-1 tvg-name="咪视界-28-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-28-移动或影视专用.png" group-title="冰茶体育",咪视界-28-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000019839&token=a7af9b57a7af9b57a7af9b57a7af9b57&client=ys
+#EXTINF:-1 tvg-name="咪视界-29-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-29-冰茶专用.png" group-title="冰茶体育",咪视界-29-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000021904&token=a7ba133fa7ba133fa7ba133fa7ba133f
+#EXTINF:-1 tvg-name="咪视界-29-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-29-移动或影视专用.png" group-title="冰茶体育",咪视界-29-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000021904&token=a7ba133fa7ba133fa7ba133fa7ba133f&client=ys
+#EXTINF:-1 tvg-name="咪视界-3-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-3-冰茶专用.png" group-title="冰茶体育",咪视界-3-冰茶专用
+https://msj.188766.xyz/play?id=3000000001000007218&token=070542b1070542b1070542b1070542b1
+#EXTINF:-1 tvg-name="咪视界-3-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-3-移动或影视专用.png" group-title="冰茶体育",咪视界-3-移动或影视专用
+https://msj.188766.xyz/play?id=3000000001000007218&token=070542b1070542b1070542b1070542b1&client=ys
+#EXTINF:-1 tvg-name="咪视界-30-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-30-冰茶专用.png" group-title="冰茶体育",咪视界-30-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000023434&token=a7bae995a7bae995a7bae995a7bae995
+#EXTINF:-1 tvg-name="咪视界-30-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-30-移动或影视专用.png" group-title="冰茶体育",咪视界-30-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000023434&token=a7bae995a7bae995a7bae995a7bae995&client=ys
+#EXTINF:-1 tvg-name="咪视界-31-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-31-冰茶专用.png" group-title="冰茶体育",咪视界-31-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000025380&token=a7bbcf29a7bbcf29a7bbcf29a7bbcf29
+#EXTINF:-1 tvg-name="咪视界-31-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-31-移动或影视专用.png" group-title="冰茶体育",咪视界-31-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000025380&token=a7bbcf29a7bbcf29a7bbcf29a7bbcf29&client=ys
+#EXTINF:-1 tvg-name="咪视界-32-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-32-冰茶专用.png" group-title="冰茶体育",咪视界-32-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000027691&token=a7bcc34aa7bcc34aa7bcc34aa7bcc34a
+#EXTINF:-1 tvg-name="咪视界-32-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-32-移动或影视专用.png" group-title="冰茶体育",咪视界-32-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000027691&token=a7bcc34aa7bcc34aa7bcc34aa7bcc34a&client=ys
+#EXTINF:-1 tvg-name="咪视界-33-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-33-冰茶专用.png" group-title="冰茶体育",咪视界-33-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000031669&token=a7c8203ca7c8203ca7c8203ca7c8203c
+#EXTINF:-1 tvg-name="咪视界-33-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-33-移动或影视专用.png" group-title="冰茶体育",咪视界-33-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000031669&token=a7c8203ca7c8203ca7c8203ca7c8203c&client=ys
+#EXTINF:-1 tvg-name="咪视界-34-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-34-冰茶专用.png" group-title="冰茶体育",咪视界-34-冰茶专用
+https://msj.188766.xyz/play?id=3000000020000011518&token=3c909f9e3c909f9e3c909f9e3c909f9e
+#EXTINF:-1 tvg-name="咪视界-34-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-34-移动或影视专用.png" group-title="冰茶体育",咪视界-34-移动或影视专用
+https://msj.188766.xyz/play?id=3000000020000011518&token=3c909f9e3c909f9e3c909f9e3c909f9e&client=ys
+#EXTINF:-1 tvg-name="咪视界-35-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-35-冰茶专用.png" group-title="冰茶体育",咪视界-35-冰茶专用
+https://msj.188766.xyz/play?id=3000000020000011519&token=3c909f9f3c909f9f3c909f9f3c909f9f
+#EXTINF:-1 tvg-name="咪视界-35-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-35-移动或影视专用.png" group-title="冰茶体育",咪视界-35-移动或影视专用
+https://msj.188766.xyz/play?id=3000000020000011519&token=3c909f9f3c909f9f3c909f9f3c909f9f&client=ys
+#EXTINF:-1 tvg-name="咪视界-36-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-36-冰茶专用.png" group-title="冰茶体育",咪视界-36-冰茶专用
+https://msj.188766.xyz/play?id=3000000020000011520&token=3c909fb53c909fb53c909fb53c909fb5
+#EXTINF:-1 tvg-name="咪视界-36-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-36-移动或影视专用.png" group-title="冰茶体育",咪视界-36-移动或影视专用
+https://msj.188766.xyz/play?id=3000000020000011520&token=3c909fb53c909fb53c909fb53c909fb5&client=ys
+#EXTINF:-1 tvg-name="咪视界-37-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-37-冰茶专用.png" group-title="冰茶体育",咪视界-37-冰茶专用
+https://msj.188766.xyz/play?id=3000000020000011521&token=3c909fb63c909fb63c909fb63c909fb6
+#EXTINF:-1 tvg-name="咪视界-37-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-37-移动或影视专用.png" group-title="冰茶体育",咪视界-37-移动或影视专用
+https://msj.188766.xyz/play?id=3000000020000011521&token=3c909fb63c909fb63c909fb63c909fb6&client=ys
+#EXTINF:-1 tvg-name="咪视界-38-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-38-冰茶专用.png" group-title="冰茶体育",咪视界-38-冰茶专用
+https://msj.188766.xyz/play?id=3000000020000011522&token=3c909fb73c909fb73c909fb73c909fb7
+#EXTINF:-1 tvg-name="咪视界-38-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-38-移动或影视专用.png" group-title="冰茶体育",咪视界-38-移动或影视专用
+https://msj.188766.xyz/play?id=3000000020000011522&token=3c909fb73c909fb73c909fb73c909fb7&client=ys
+#EXTINF:-1 tvg-name="咪视界-4-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-4-冰茶专用.png" group-title="冰茶体育",咪视界-4-冰茶专用
+https://msj.188766.xyz/play?id=3000000001000008001&token=0705af680705af680705af680705af68
+#EXTINF:-1 tvg-name="咪视界-4-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-4-移动或影视专用.png" group-title="冰茶体育",咪视界-4-移动或影视专用
+https://msj.188766.xyz/play?id=3000000001000008001&token=0705af680705af680705af680705af68&client=ys
+#EXTINF:-1 tvg-name="咪视界-5-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-5-冰茶专用.png" group-title="冰茶体育",咪视界-5-冰茶专用
+https://msj.188766.xyz/play?id=3000000001000008176&token=0705b4070705b4070705b4070705b407
+#EXTINF:-1 tvg-name="咪视界-5-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-5-移动或影视专用.png" group-title="冰茶体育",咪视界-5-移动或影视专用
+https://msj.188766.xyz/play?id=3000000001000008176&token=0705b4070705b4070705b4070705b407&client=ys
+#EXTINF:-1 tvg-name="咪视界-6-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-6-冰茶专用.png" group-title="冰茶体育",咪视界-6-冰茶专用
+https://msj.188766.xyz/play?id=3000000001000008379&token=0705bb8c0705bb8c0705bb8c0705bb8c
+#EXTINF:-1 tvg-name="咪视界-6-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-6-移动或影视专用.png" group-title="冰茶体育",咪视界-6-移动或影视专用
+https://msj.188766.xyz/play?id=3000000001000008379&token=0705bb8c0705bb8c0705bb8c0705bb8c&client=ys
+#EXTINF:-1 tvg-name="咪视界-7-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-7-冰茶专用.png" group-title="冰茶体育",咪视界-7-冰茶专用
+https://msj.188766.xyz/play?id=3000000001000010129&token=071027f8071027f8071027f8071027f8
+#EXTINF:-1 tvg-name="咪视界-7-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-7-移动或影视专用.png" group-title="冰茶体育",咪视界-7-移动或影视专用
+https://msj.188766.xyz/play?id=3000000001000010129&token=071027f8071027f8071027f8071027f8&client=ys
+#EXTINF:-1 tvg-name="咪视界-8-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-8-冰茶专用.png" group-title="冰茶体育",咪视界-8-冰茶专用
+https://msj.188766.xyz/play?id=3000000001000010948&token=0710463d0710463d0710463d0710463d
+#EXTINF:-1 tvg-name="咪视界-8-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-8-移动或影视专用.png" group-title="冰茶体育",咪视界-8-移动或影视专用
+https://msj.188766.xyz/play?id=3000000001000010948&token=0710463d0710463d0710463d0710463d&client=ys
+#EXTINF:-1 tvg-name="咪视界-9-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-9-冰茶专用.png" group-title="冰茶体育",咪视界-9-冰茶专用
+https://msj.188766.xyz/play?id=3000000001000028638&token=0721f5540721f5540721f5540721f554
+#EXTINF:-1 tvg-name="咪视界-9-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界-9-移动或影视专用.png" group-title="冰茶体育",咪视界-9-移动或影视专用
+https://msj.188766.xyz/play?id=3000000001000028638&token=0721f5540721f5540721f5540721f554&client=ys
+#EXTINF:-1 tvg-name="咪视界4K-1-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界4K-1-冰茶专用.png" group-title="冰茶体育",咪视界4K-1-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000005180&token=a79f98a5a79f98a5a79f98a5a79f98a5
+#EXTINF:-1 tvg-name="咪视界4K-1-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界4K-1-移动或影视专用.png" group-title="冰茶体育",咪视界4K-1-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000005180&token=a79f98a5a79f98a5a79f98a5a79f98a5&client=ys
+#EXTINF:-1 tvg-name="咪视界4K-2-冰茶专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界4K-2-冰茶专用.png" group-title="冰茶体育",咪视界4K-2-冰茶专用
+https://msj.188766.xyz/play?id=3000000010000015686&token=a7adc2f1a7adc2f1a7adc2f1a7adc2f1
+#EXTINF:-1 tvg-name="咪视界4K-2-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界4K-2-移动或影视专用.png" group-title="冰茶体育",咪视界4K-2-移动或影视专用
+https://msj.188766.xyz/play?id=3000000010000015686&token=a7adc2f1a7adc2f1a7adc2f1a7adc2f1&client=ys
 #EXTINF:-1 tvg-name="12月09日_咪咕老封号_咪咕体育看咪视界" tvg-logo="https://live.fanmingming.cn/tv/12月09日_咪咕老封号_咪咕体育看咪视界.png" group-title="河南频道",12月09日_咪咕老封号_咪咕体育看咪视界
 https://188766.xyz/yu
 #EXTINF:-1 tvg-name="咪咕视频" tvg-logo="https://live.fanmingming.cn/tv/咪咕视频.png" group-title="河南频道",咪咕视频
