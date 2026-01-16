@@ -319,14 +319,14 @@ if __name__ == "__main__":
         #"https://raw.githubusercontent.com/ncnc8388/genxinxia/refs/heads/main/fg.m3u",
         "https://raw.githubusercontent.com/ncnc8388/ncnc8388.github.io/refs/heads/main/河南电信.m3u",
         #"https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u",
-        "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_四川电信.txt",
-        "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_浙江电信.txt",
-        "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_山西电信.txt",
-        "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_河北电信.txt",
-        "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_甘肃电信.txt",
+        #"https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_四川电信.txt",
+        #"https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_浙江电信.txt",
+        #"https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_山西电信.txt",
+        #"https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_河北电信.txt",
+        #"https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_甘肃电信.txt",
         "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_湖南电信.txt",
-        "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_福建电信.txt",
-        "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_河南电信.txt",
+        #"https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_福建电信.txt",
+        #"https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_河南电信.txt",
         "https://raw.githubusercontent.com/FEIUI/tvbox/refs/heads/master/xiaosa/ITV.txt",
         #"https://tzdr.com/iptv.txt",
         #"https://live.kilvn.com/iptv.m3u",
@@ -351,6 +351,7 @@ if __name__ == "__main__":
     # 执行主函数
 
     asyncio.run(main(file_urls, cctv_channel_file, province_channel_files))
+
 
 
 
