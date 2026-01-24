@@ -8,7 +8,7 @@ API_KEY = os.getenv("YOUTUBE_API_KEY")
 # - UC123,UC456           （直接 channelId）
 RAW_INPUT = os.getenv("YOUTUBE_CHANNELS", "").strip()
 
-OUTPUT_DIR = "河南"
+OUTPUT_DIR = "IPTV"
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "yut.m3u")
 
 def resolve_handles_to_channel_ids(handles_or_ids):
@@ -86,7 +86,7 @@ def write_m3u(live_streams):
         lines = ["#EXTM3U"]
         for vid, title in live_streams:
             lines.append(f'#EXTINF:-1,{title}')
-            lines.append(f'https://www.youtube.com/watch?v={vid}')
+            lines.append(f'http://ncncha.cloudns.ch:9977/play?id={vid}&quality=720p')
         content = "\n".join(lines) + "\n"
     else:
         content = "#EXTM3U\n# No live streams available\n"
