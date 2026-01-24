@@ -67,16 +67,6 @@ http://219.150.217.47:6610/PLTV1/1180/index.m3u8?icpid=dxrm1
 http://219.150.217.47:6610/PLTV1/580/index.m3u8?icpid=dxrm1
 #EXTINF:-1 tvg-name=" 河南卫视4K测试" tvg-logo="https://live.fanmingming.cn/tv/ 河南卫视4K测试.png" group-title="卫视频道", 河南卫视4K测试
 http://219.150.217.47:6610/PLTV2/2780/index.m3u8?icpid=dxrm1
-#EXTINF:-1 tvg-name=" 河南卫视4K测试" tvg-logo="https://live.fanmingming.cn/tv/ 河南卫视4K测试.png" group-title="卫视频道", 河南卫视4K测试
-http://ncncha.cloudns.ch:9977/play?id=vr3XyVCR4T0&quality=720p
-#EXTINF:-1 tvg-name=" 河南卫视4K测试" tvg-logo="https://live.fanmingming.cn/tv/ 河南卫视4K测试.png" group-title="卫视频道", 河南卫视4K测试
-http://ncncha.cloudns.ch:9977/play?id=8o3rl1YgbmE&quality=720p
-#EXTINF:-1 tvg-name=" 河南卫视4K测试" tvg-logo="https://live.fanmingming.cn/tv/ 河南卫视4K测试.png" group-title="卫视频道", 河南卫视4K测试
-http://ncncha.cloudns.ch:9977/play?id=EFrAHLX2dSs&quality=720p
-#EXTINF:-1 tvg-name=" 河南卫视4K测试" tvg-logo="https://live.fanmingming.cn/tv/ 河南卫视4K测试.png" group-title="卫视频道", 河南卫视4K测试
-http://ncncha.cloudns.ch:9977/play?id=pCzEgetWfkc&quality=720p
-#EXTINF:-1 tvg-name=" 河南卫视4K测试" tvg-logo="https://live.fanmingming.cn/tv/ 河南卫视4K测试.png" group-title="卫视频道", 河南卫视4K测试
-http://ncncha.cloudns.ch:9977/play?id=xTOdmoO-t3g&quality=720p
 #EXTINF:-1 tvg-name=" 浙江卫视" tvg-logo="https://live.fanmingming.cn/tv/ 浙江卫视.png" group-title="卫视频道", 浙江卫视
 http://219.150.217.47:6610/PLTV1/960/index.m3u8?icpid=dxrm1
 #EXTINF:-1 tvg-name=" 海南卫视" tvg-logo="https://live.fanmingming.cn/tv/ 海南卫视.png" group-title="卫视频道", 海南卫视
@@ -449,6 +439,16 @@ https://msj.188766.xyz/play?id=3000000010000015686&token=8ca6ea518ca6ea518ca6ea5
 https://msj.188766.xyz/play?id=3000000010000015686&token=8ca6ea518ca6ea518ca6ea518ca6ea51&client=ys
 #EXTINF:-1 tvg-name="咪视界4K-2-移动或影视专用" tvg-logo="https://live.fanmingming.cn/tv/咪视界4K-2-移动或影视专用.png" group-title="冰茶体育",咪视界4K-2-移动或影视专用
 https://msj.188766.xyz/play?id=3000000010000015686&token=8ca6ea518ca6ea518ca6ea518ca6ea51&client=ys
+#EXTINF:-1 tvg-name=" 中天大白话" tvg-logo="https://live.fanmingming.cn/tv/ 中天大白话.png" group-title="河南频道", 中天大白话
+http://ncncha.cloudns.ch:9977/play?id=8o3rl1YgbmE&quality=720p
+#EXTINF:-1 tvg-name=" 中天少康戰情室1" tvg-logo="https://live.fanmingming.cn/tv/ 中天少康戰情室1.png" group-title="河南频道", 中天少康戰情室1
+http://ncncha.cloudns.ch:9977/play?id=EFrAHLX2dSs&quality=720p
+#EXTINF:-1 tvg-name=" 中天少康戰情室2" tvg-logo="https://live.fanmingming.cn/tv/ 中天少康戰情室2.png" group-title="河南频道", 中天少康戰情室2
+http://ncncha.cloudns.ch:9977/play?id=pCzEgetWfkc&quality=720p
+#EXTINF:-1 tvg-name=" 中天少康戰情室3" tvg-logo="https://live.fanmingming.cn/tv/ 中天少康戰情室3.png" group-title="河南频道", 中天少康戰情室3
+http://ncncha.cloudns.ch:9977/play?id=xTOdmoO-t3g&quality=720p
+#EXTINF:-1 tvg-name=" 中天新聞" tvg-logo="https://live.fanmingming.cn/tv/ 中天新聞.png" group-title="河南频道", 中天新聞
+http://ncncha.cloudns.ch:9977/play?id=vr3XyVCR4T0&quality=720p
 #EXTINF:-1 tvg-name="12月09日_咪咕老封号_咪咕体育看咪视界" tvg-logo="https://live.fanmingming.cn/tv/12月09日_咪咕老封号_咪咕体育看咪视界.png" group-title="河南频道",12月09日_咪咕老封号_咪咕体育看咪视界
 https://188766.xyz/yu
 #EXTINF:-1 tvg-name="12月09日_咪咕老封号_咪咕体育看咪视界" tvg-logo="https://live.fanmingming.cn/tv/12月09日_咪咕老封号_咪咕体育看咪视界.png" group-title="河南频道",12月09日_咪咕老封号_咪咕体育看咪视界
