@@ -231,7 +231,7 @@ def generate_sorted_m3u(valid_urls, cctv_channels, province_channels, filename):
                         break
                 if found_province:
                     break
-               print(province_channels_list)     
+            print(province_channels_list)     
             """if not found_province:
                 other_channels.append({
                     "channel": channel,
@@ -355,6 +355,7 @@ if __name__ == "__main__":
     # 执行主函数
 
     asyncio.run(main(file_urls, cctv_channel_file, province_channel_files))
+
 
 
 
