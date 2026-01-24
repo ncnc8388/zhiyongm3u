@@ -39,6 +39,8 @@ http://219.150.217.47:6610/PLTV1/1400/index.m3u8?icpid=dxrm1
 http://219.150.217.47:6610/PLTV1/980/index.m3u8?icpid=dxrm1
 #EXTINF:-1 tvg-name=" 云南卫视" tvg-logo="https://live.fanmingming.cn/tv/ 云南卫视.png" group-title="卫视频道", 云南卫视
 http://219.150.217.47:6610/PLTV1/1320/index.m3u8?icpid=dxrm1
+#EXTINF:-1 tvg-name=" 凤凰卫视" tvg-logo="https://live.fanmingming.cn/tv/ 凤凰卫视.png" group-title="卫视频道", 凤凰卫视
+http://ncncha.cloudns.ch:9977/play?id=fN9uYWCjQaw&quality=720p
 #EXTINF:-1 tvg-name=" 北京卫视" tvg-logo="https://live.fanmingming.cn/tv/ 北京卫视.png" group-title="卫视频道", 北京卫视
 http://219.150.217.47:6610/PLTV1/1020/index.m3u8?icpid=dxrm1
 #EXTINF:-1 tvg-name=" 吉林卫视" tvg-logo="https://live.fanmingming.cn/tv/ 吉林卫视.png" group-title="卫视频道", 吉林卫视
@@ -65,6 +67,16 @@ http://219.150.217.47:6610/PLTV1/1180/index.m3u8?icpid=dxrm1
 http://219.150.217.47:6610/PLTV1/580/index.m3u8?icpid=dxrm1
 #EXTINF:-1 tvg-name=" 河南卫视4K测试" tvg-logo="https://live.fanmingming.cn/tv/ 河南卫视4K测试.png" group-title="卫视频道", 河南卫视4K测试
 http://219.150.217.47:6610/PLTV2/2780/index.m3u8?icpid=dxrm1
+#EXTINF:-1 tvg-name=" 河南卫视4K测试" tvg-logo="https://live.fanmingming.cn/tv/ 河南卫视4K测试.png" group-title="卫视频道", 河南卫视4K测试
+http://ncncha.cloudns.ch:9977/play?id=vr3XyVCR4T0&quality=720p
+#EXTINF:-1 tvg-name=" 河南卫视4K测试" tvg-logo="https://live.fanmingming.cn/tv/ 河南卫视4K测试.png" group-title="卫视频道", 河南卫视4K测试
+http://ncncha.cloudns.ch:9977/play?id=8o3rl1YgbmE&quality=720p
+#EXTINF:-1 tvg-name=" 河南卫视4K测试" tvg-logo="https://live.fanmingming.cn/tv/ 河南卫视4K测试.png" group-title="卫视频道", 河南卫视4K测试
+http://ncncha.cloudns.ch:9977/play?id=EFrAHLX2dSs&quality=720p
+#EXTINF:-1 tvg-name=" 河南卫视4K测试" tvg-logo="https://live.fanmingming.cn/tv/ 河南卫视4K测试.png" group-title="卫视频道", 河南卫视4K测试
+http://ncncha.cloudns.ch:9977/play?id=pCzEgetWfkc&quality=720p
+#EXTINF:-1 tvg-name=" 河南卫视4K测试" tvg-logo="https://live.fanmingming.cn/tv/ 河南卫视4K测试.png" group-title="卫视频道", 河南卫视4K测试
+http://ncncha.cloudns.ch:9977/play?id=xTOdmoO-t3g&quality=720p
 #EXTINF:-1 tvg-name=" 浙江卫视" tvg-logo="https://live.fanmingming.cn/tv/ 浙江卫视.png" group-title="卫视频道", 浙江卫视
 http://219.150.217.47:6610/PLTV1/960/index.m3u8?icpid=dxrm1
 #EXTINF:-1 tvg-name=" 海南卫视" tvg-logo="https://live.fanmingming.cn/tv/ 海南卫视.png" group-title="卫视频道", 海南卫视
