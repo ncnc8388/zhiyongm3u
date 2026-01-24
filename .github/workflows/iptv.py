@@ -345,12 +345,14 @@ if __name__ == "__main__":
     # 省份频道文件列表
     province_channel_files = [
         ".github/workflows/IPTV/河南频道.txt",
+        ".github/workflows/IPTV/youtube.txt",
         ".github/workflows/IPTV/冰茶体育.txt"
     ]
 
     # 执行主函数
 
     asyncio.run(main(file_urls, cctv_channel_file, province_channel_files))
+
 
 
 
