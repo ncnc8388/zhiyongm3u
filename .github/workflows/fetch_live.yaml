@@ -1,0 +1,39 @@
+name: Fetch All YouTube Live Streams
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'  # 每15分钟检查一次（根据配额调整）
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run live stream fetcher
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YOUTUBE_CHANNELS: ${{ secrets.YOUTUBE_CHANNELS }}
+        run: python fetch_live_multi.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          if ! git diff --cached --quiet; then
+            git commit -m "Update yut.m3u with latest live streams"
+            git push
+          else
+            echo "No changes detected."
+          fi
