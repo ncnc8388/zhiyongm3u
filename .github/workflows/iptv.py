@@ -187,6 +187,7 @@ def generate_sorted_m3u(valid_urls, cctv_channels, province_channels, filename):
     keywords = get_dynamic_keywords()
     #print(valid_urls)
     for channel, url in valid_urls:
+        print(channel)
         if contains_date(channel) or contains_date(url):
             continue  # 过滤掉包含日期格式的频道
         # 正规化 CCTV 频道名
@@ -216,11 +217,11 @@ def generate_sorted_m3u(valid_urls, cctv_channels, province_channels, filename):
             })
         else:
             # 检查是否是省份频道
-            #print(province_channels)
+            print(province_channels)
             found_province = False
             for province, channels in province_channels.items():
                 for province_channel in channels:
-                    #print(province_channel)
+                    print(province_channel)
                     if province_channel in channel:  # 匹配省份频道名称
                         province_channels_list[province].append({
                             "channel": channel,
@@ -232,7 +233,7 @@ def generate_sorted_m3u(valid_urls, cctv_channels, province_channels, filename):
                         break
                 if found_province:
                     break
-           # print(province_channels_list)     
+            print(province_channels_list)     
             """if not found_province:
                 other_channels.append({
                     "channel": channel,
@@ -317,20 +318,20 @@ if __name__ == "__main__":
         #"https://mp.leuse.top/proxy?single=true&url=https://fy.188766.xyz/?ip=&lunbo=false&mima=mianfeidehaimaiqian",
        # "https://aktv.space/live.m3u",
         #"https://ncncha.3vdo.club/getm3u8.asp?url=https://fy.188766.xyz/?ip=&lunbo=false&mima=mianfeidehaimaiqian",
-        "https://gist.githubusercontent.com/ncnc8388/fd7fe346617db3b5d609c806d3a1bc35/raw/live.m3u",
+       # "https://gist.githubusercontent.com/ncnc8388/fd7fe346617db3b5d609c806d3a1bc35/raw/live.m3u",
         #"https://1303157606-jbnue8hg1f.ap-guangzhou.tencentscf.com/?url=https://fy.188766.xyz/?ip=&lunbo=false&mima=mianfeidehaimaiqian&haiwai=false",
         #"https://raw.githubusercontent.com/ncnc8388/genxinxia/refs/heads/main/fg.m3u",
-        "https://raw.githubusercontent.com/ncnc8388/ncnc8388.github.io/refs/heads/main/河南电信.m3u",
+       # "https://raw.githubusercontent.com/ncnc8388/ncnc8388.github.io/refs/heads/main/河南电信.m3u",
         #"https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u",
         #"https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_四川电信.txt",
         #"https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_浙江电信.txt",
         #"https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_山西电信.txt",
         #"https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_河北电信.txt",
         #"https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_甘肃电信.txt",
-        "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_湖南电信.txt",
+       # "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_湖南电信.txt",
         #"https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_福建电信.txt",
         #"https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_河南电信.txt",
-        "https://raw.githubusercontent.com/FEIUI/tvbox/refs/heads/master/xiaosa/ITV.txt",
+       # "https://raw.githubusercontent.com/FEIUI/tvbox/refs/heads/master/xiaosa/ITV.txt",
         "https://raw.githubusercontent.com/ncnc8388/zhiyongm3u/refs/heads/main/IPTV/%E6%B2%B3%E5%8D%97yut.m3u",
         #"https://tzdr.com/iptv.txt",
         #"https://live.kilvn.com/iptv.m3u",
@@ -356,6 +357,7 @@ if __name__ == "__main__":
     # 执行主函数
 
     asyncio.run(main(file_urls, cctv_channel_file, province_channel_files))
+
 
 
 
