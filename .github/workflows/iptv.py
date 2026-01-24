@@ -328,6 +328,7 @@ if __name__ == "__main__":
         #"https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_福建电信.txt",
         #"https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_河南电信.txt",
         "https://raw.githubusercontent.com/FEIUI/tvbox/refs/heads/master/xiaosa/ITV.txt",
+        "https://raw.githubusercontent.com/ncnc8388/zhiyongm3u/refs/heads/main/IPTV/%E6%B2%B3%E5%8D%97yut.m3u",
         #"https://tzdr.com/iptv.txt",
         #"https://live.kilvn.com/iptv.m3u",
         #"https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u",
@@ -352,6 +353,7 @@ if __name__ == "__main__":
     # 执行主函数
 
     asyncio.run(main(file_urls, cctv_channel_file, province_channel_files))
+
 
 
 
