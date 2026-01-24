@@ -9,7 +9,7 @@ API_KEY = os.getenv("YOUTUBE_API_KEY")
 RAW_INPUT = os.getenv("YOUTUBE_CHANNELS", "").strip()
 
 OUTPUT_DIR = "IPTV"
-OUTPUT_FILE = os.path.join(OUTPUT_DIR, "yut.m3u")
+OUTPUT_FILE = os.path.join(OUTPUT_DIR, "河南yut.m3u")
 
 def resolve_handles_to_channel_ids(handles_or_ids):
     """将混合输入（@handle 或 UC...）统一转为 channelId 列表"""
