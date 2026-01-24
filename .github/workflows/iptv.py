@@ -216,6 +216,7 @@ def generate_sorted_m3u(valid_urls, cctv_channels, province_channels, filename):
             })
         else:
             # 检查是否是省份频道
+            print(province_channels)
             found_province = False
             for province, channels in province_channels.items():
                 for province_channel in channels:
@@ -230,6 +231,7 @@ def generate_sorted_m3u(valid_urls, cctv_channels, province_channels, filename):
                         break
                 if found_province:
                     break
+               print( province_channels_list)     
             """if not found_province:
                 other_channels.append({
                     "channel": channel,
@@ -353,6 +355,7 @@ if __name__ == "__main__":
     # 执行主函数
 
     asyncio.run(main(file_urls, cctv_channel_file, province_channel_files))
+
 
 
 
