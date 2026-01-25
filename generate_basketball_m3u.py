@@ -12,9 +12,14 @@ REFERER = "https://www.360ba.co/"
 USER_AGENT = "Mozilla/5.0 (Linux; Android 12; Redmi K30) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Mobile Safari/537.36"
 
 HEADERS = {
-    "User-Agent": USER_AGENT,
-    "Referer": REFERER,
-    "Origin": "https://m.360ba.co"
+  "User-Agent": "Mozilla/5.0 (Linux; Android 12; Redmi K30) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.104 Mobile Safari/537.36",
+    "Referer": "https://m.360ba.co/",
+    "Origin": "https://m.360ba.co",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Sec-Fetch-Site": "same-origin",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Dest": "empty",
 }
 
 OUTPUT_FILE = "basketball.m3u"
@@ -23,7 +28,10 @@ def get_basketball_matches():
     """获取所有篮球比赛列表"""
     try:
         resp = requests.get(API_URL, headers=HEADERS, timeout=10)
-        
+        print("=== 响应状态码 ===")
+        print(resp.status_code)
+        print("=== 响应内容（前500字符）===")
+        print(resp.text[:500])
         data = resp.json()
         print(data)
         return data.get("data", {}).get("data", [])
