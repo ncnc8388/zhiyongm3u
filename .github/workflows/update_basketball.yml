@@ -1,0 +1,38 @@
+name: Update Basketball M3U
+
+on:
+  schedule:
+    # 北京时间 6,10,14,18,22 点（UTC+8）
+    # GitHub Actions 使用 UTC，所以减 8 小时
+    - cron: "0 22,2,6,10,14 * * *"  # UTC 时间
+  workflow_dispatch:  # 允许手动运行
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run generator
+        run: python generate_basketball_m3u.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add basketball.m3u
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-update basketball.m3u at $(date +'%Y-%m-%d %H:%M')"
+            git push
+          else
+            echo "No changes."
+          fi
