@@ -23,6 +23,7 @@ def get_basketball_matches():
     """获取所有篮球比赛列表"""
     try:
         resp = requests.get(API_URL, headers=HEADERS, timeout=10)
+        print(resp)
         data = resp.json()
         return data.get("data", {}).get("data", [])
     except Exception as e:
