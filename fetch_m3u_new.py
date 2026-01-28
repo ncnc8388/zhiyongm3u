@@ -112,7 +112,7 @@ def write_m3u(entries):
             url = f"{BASE_URL}?id={vid}&quality=360p"
         else:  # vod
             url = f"{BASE_URL}?id={vid}&quality=720p"
-        lines.append(f'#EXTINF:-1,{title}')
+        lines.append(f'#EXTINF:-1,'youtube'+{title}')
         lines.append(url)
     
     content = "\n".join(lines) + "\n" if entries else "#EXTM3U\n# No content available\n"
