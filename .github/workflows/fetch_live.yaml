@@ -24,7 +24,7 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           YOUTUBE_CHANNELS: ${{ secrets.YOUTUBE_CHANNELS }}
-        run: python fetch_live_multi.py
+        run: python fetch_m3u_new.py
 
       - name: Commit and push if changed
         run: |
