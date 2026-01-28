@@ -5,8 +5,8 @@ import requests
 API_KEY = os.getenv("YOUTUBE_API_KEY")
 CHANNELS_INPUT = os.getenv("YOUTUBE_CHANNELS", "").strip()
 
-OUTPUT_DIR = "河南"
-OUTPUT_FILE = os.path.join(OUTPUT_DIR, "yut.m3u")
+OUTPUT_DIR = "IPTV"
+OUTPUT_FILE = os.path.join(OUTPUT_DIR, "河南yut.m3u")
 
 def resolve_to_channel_ids(raw_input):
     if not raw_input:
