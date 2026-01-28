@@ -109,9 +109,9 @@ def write_m3u(entries):
     
     for vid, title, media_type in entries:
         if media_type == "live":
-            url = f"{BASE_URL}?id={vid}&quality=360p"
-        else:  # vod
             url = f"{BASE_URL}?id={vid}&quality=720p"
+        else:  # vod
+            url = f"{BASE_URL}?id={vid}&quality=360p"
         lines.append(f'#EXTINF:-1,youtube {title}')
         lines.append(url)
     
