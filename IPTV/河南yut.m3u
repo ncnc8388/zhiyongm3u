@@ -1,6 +1,10 @@
 #EXTM3U
 #EXTINF:-1,youtube [LIVE] 🔴【#完整版24小時不間斷】#新聞大白話 ｜24-Hour Non-Stop Live｜24時間ライブ配信｜시리즈가 왔어요
 http://ncncha.cloudns.ch:9977/play?id=8o3rl1YgbmE&quality=720p
+#EXTINF:-1,youtube [VOD] 🔴LIVE：2026.02.05 新聞大白話【14:10全球開播】
+http://ncncha.cloudns.ch:9977/play?id=UoRwihoWQSU&quality=360p
+#EXTINF:-1,youtube [VOD] 鄭麗文盼民進黨下架台獨黨綱 兩岸馬上「春暖花開」 喊話賴清德「要有信心」:不要怕我給你壯膽｜TVBS新聞
+http://ncncha.cloudns.ch:9977/play?id=Yv_GFV4S9u0&quality=360p
 #EXTINF:-1,youtube [VOD] 川普投書華爾街日報 稱「關稅讓美重返榮耀」 民調樂觀 高市早苗「考慮將自衛隊入憲」【#大白話說新聞】#川普#華爾街日報#關稅#高市早苗
 http://ncncha.cloudns.ch:9977/play?id=6c2jYGiUPAg&quality=360p
 #EXTINF:-1,youtube [VOD] 叫陣國共論壇？總統親自宣布台美合作進展：「關稅只是美台合作的一部分」【#大白話說新聞】#賴清德#國共論壇#台美合作
@@ -9,13 +13,9 @@ http://ncncha.cloudns.ch:9977/play?id=-_TjUGvDL-A&quality=360p
 http://ncncha.cloudns.ch:9977/play?id=Aqbcuhw2z7E&quality=360p
 #EXTINF:-1,youtube [VOD] 美俄核武條約屆滿 半世紀首見監管真空 大戰在即？美伊互撂狠話 美軍艦移師紅海 伊朗全面戒備【#大白話說新聞】#核武#美國#伊朗
 http://ncncha.cloudns.ch:9977/play?id=sdyR9zNhT-k&quality=360p
-#EXTINF:-1,youtube [VOD] 伊朗持續緊繃備戰！宣布:將歐盟軍隊視為"恐怖組織"  川普態度180度轉變！稱「等我不再調停戰爭 UN可接手」【#大白話說新聞】#川普#伊朗#歐盟
-http://ncncha.cloudns.ch:9977/play?id=yJ11aghvejg&quality=360p
-#EXTINF:-1,youtube [VOD] 年前大掃除注意！今年首例漢他病毒發病8天亡 40歲以上男性風險最高！【#大白話熱焦點】#漢他病毒#男性#大掃除#首例#發燒
-http://ncncha.cloudns.ch:9977/play?id=k0thd21wBEQ&quality=360p
-#EXTINF:-1,youtube [LIVE] 【鳳凰衛視#24小時直播間 】習近平4日晚與特朗普通電話｜以色列就美伊談判提出四項關鍵要求｜歐盟擬與美國開展關鍵礦產合作｜24-hour live news｜24小时直播间#鳳凰衛視
+#EXTINF:-1,youtube [LIVE] 【鳳凰衛視#24小時直播間 】習近平與特朗普通話：強調美方慎重處理對台軍售｜伊朗：若遭美攻擊 以色列將成首要報復目標｜白宮從明州撤移民特工｜24-hour live news｜24小时直播间#鳳凰衛視
 http://ncncha.cloudns.ch:9977/play?id=fN9uYWCjQaw&quality=720p
-#EXTINF:-1,youtube [VOD] 【直播LIVE】2026世界政府峰會進入第二日‼️人工智能走到十字路口？阿里巴巴集團董事會主席蔡崇信對話阿聯酋官員：AI如何賦能政府？｜【鳳凰衛視獨家報道】#鳳凰衛視 #WGS2026 #鳳凰行天下
+#EXTINF:-1,youtube [VOD] 【直播回顧】2026世界政府峰會進入第二日‼️人工智能走到十字路口？阿里巴巴集團董事會主席蔡崇信對話阿聯酋官員：AI如何賦能政府？｜【鳳凰衛視獨家報道】#鳳凰衛視 #WGS2026 #鳳凰行天下
 http://ncncha.cloudns.ch:9977/play?id=k7VXqC_YQ3A&quality=360p
 #EXTINF:-1,youtube [VOD] 鳳凰行天下｜蔡崇信幽默談“AI泡沫”：我會討厭擔任這職務！因為很難解釋投資回報率😂#世界政府峰會 #WGS2026 #鳳凰行天下 #AI #蔡崇信 #阿聯酋 #迪拜 #阿里巴巴
 http://ncncha.cloudns.ch:9977/play?id=MM9Zb5QKdy8&quality=360p
@@ -27,29 +27,31 @@ http://ncncha.cloudns.ch:9977/play?id=Cb4hHG8EUlU&quality=360p
 http://ncncha.cloudns.ch:9977/play?id=1lG-mYX2yhw&quality=360p
 #EXTINF:-1,youtube [VOD] 鳳凰行天下｜橋水基金創始人達利歐：黃金仍是當下最安全的貨幣，“該考慮的是配置比例而不是每天盯著價格漲跌” #世界政府峰會 #WGS2026 #鳳凰行天下 #PhoenixGoGlocal #黃金
 http://ncncha.cloudns.ch:9977/play?id=GezliFU0xEo&quality=360p
-#EXTINF:-1,youtube [VOD] 【每日必看】中美爭鋒 殲36vs.F47誰贏? | 中文熱潮 席捲越南 20260204｜辣晚報
-http://ncncha.cloudns.ch:9977/play?id=F6Zptkka3MY&quality=360p
-#EXTINF:-1,youtube [VOD] 【每日必看】柬國大清剿 中國動作了 | 巴拿馬撤銷合約 李嘉誠長和不服 20260204｜辣晚報
-http://ncncha.cloudns.ch:9977/play?id=E-uRn0v4w_4&quality=360p
-#EXTINF:-1,youtube [VOD] 【每日必看】紐時爆習偏執 美情資未指張又俠間諜 | 張又俠間諜謎? 蔡正元大警告 20260204｜辣晚報
-http://ncncha.cloudns.ch:9977/play?id=wN2aTgMHuGs&quality=360p
-#EXTINF:-1,youtube [VOD] 【每日必看】中俄重磅 習普視訊會晤 | 吊特批俄 未認真尋求和平 20260204｜辣晚報
-http://ncncha.cloudns.ch:9977/play?id=gUqXZAdZm_k&quality=360p
-#EXTINF:-1,youtube [VOD] 《全程字幕》習近平清洗整肅解放軍 將軍看到未來戰場 他們想幹一票大的
-http://ncncha.cloudns.ch:9977/play?id=ORh4Nif4m68&quality=360p
-#EXTINF:-1,youtube [VOD] 開戰?!美軍動手擊落伊朗無人機?! 蔡正元破解美伊軍事行動訊號 將軍曝解放軍是關鍵?!
-http://ncncha.cloudns.ch:9977/play?id=AXkVUGTSCXM&quality=360p
+#EXTINF:-1,youtube [LIVE] 【🔴LIVE直播中】川習通話涉及台灣! 習近平讓川普軍售生變? 新莊孕婦自撞亡追真相! 單純偷拍兒少非重罪! 劉世芳拍板封殺李貞秀!|孫怡琳/洪淑芬報新聞20260205@中天新聞CtiNews
+http://ncncha.cloudns.ch:9977/play?id=ssUOxjPEBwY&quality=720p
+#EXTINF:-1,youtube [VOD] 【🔴LIVE直播中】川習通話涉及台灣! 習近平讓川普軍售生變? 新莊孕婦自撞亡追真相! 單純偷拍兒少非重罪! 劉世芳拍板封殺李貞秀!|孫怡琳/洪淑芬報新聞20260205@中天新聞CtiNews
+http://ncncha.cloudns.ch:9977/play?id=ssUOxjPEBwY&quality=360p
+#EXTINF:-1,youtube [VOD] 【全程字幕】習普視訊會! 帥化民列3點直言中俄緊密面對世界大變局 謝寒冰:宣示全世界"緊盯西方"隨時有應付辦法
+http://ncncha.cloudns.ch:9977/play?id=U98P1MspbKM&quality=360p
+#EXTINF:-1,youtube [VOD] 直播模擬被關慘況 館長壓力大到長痘痘:怕得要死 #shorts
+http://ncncha.cloudns.ch:9977/play?id=pZoC0CG4DP4&quality=360p
+#EXTINF:-1,youtube [VOD] 【全程字幕】賴清德民調血崩!? 郭正亮轟賴"無能當流氓"民意爆炸! 網百萬人暴動喊"起義抗賴"!
+http://ncncha.cloudns.ch:9977/play?id=2axu_9N2dGo&quality=360p
+#EXTINF:-1,youtube [VOD] 鄭麗文辣語嗆爆賴桑真"驚"了!? 賴清德:欣然接受九二共識真的是中國人
+http://ncncha.cloudns.ch:9977/play?id=lUF4yvQPxfk&quality=360p
+#EXTINF:-1,youtube [VOD] 小鐘你又想幹嘛了？滿足「偽情侶」夾娃娃還不專心「說人家好香」@綜藝OK啦  #shorts
+http://ncncha.cloudns.ch:9977/play?id=_ctxDBzi4No&quality=360p
 #EXTINF:-1,youtube [LIVE] 🔴【#完整版24小時不間斷】TVBS 少康戰情室精選特輯 ｜24-Hour Non-Stop Live｜24時間ライブ配信｜시리즈가 왔어요 #趙少康 #戰鬥藍
 http://ncncha.cloudns.ch:9977/play?id=_LVTMyXBTTI&quality=720p
+#EXTINF:-1,youtube [VOD] 府公開逐字稿澄清原意　賴清德心中「名師不如找好書」越描越黑？ #少康戰情室 20260204-5 #顏蔚慈 #陳世軒 #董智森 #林郁方 #游淑慧 #徐弘庭
+http://ncncha.cloudns.ch:9977/play?id=pd1kDQB-NCg&quality=360p
+#EXTINF:-1,youtube [VOD] 鄭先陸後美、盧務實外交　「不選邊」為兩岸和平搭橋強化台美戰略？ #少康戰情室 20260204-4 #顏蔚慈 #陳世軒 #董智森 #林郁方 #游淑慧 #徐弘庭
+http://ncncha.cloudns.ch:9977/play?id=nmr-yiM68wo&quality=360p
+#EXTINF:-1,youtube [VOD] 台美協議遭吃乾抹淨賴政府一意孤行　供應鏈出海神山還能護國？ #少康戰情室 20260204-3 #顏蔚慈 #陳世軒 #董智森 #林郁方 #游淑慧 #徐弘庭
+http://ncncha.cloudns.ch:9977/play?id=SZe5fL-1jyg&quality=360p
+#EXTINF:-1,youtube [VOD] 賴清德叩問國人：要攜手世界或西進大陸　對拚國共論壇打抗中牌？ #少康戰情室 20260204-2 #顏蔚慈 #陳世軒 #董智森 #林郁方 #游淑慧 #徐弘庭
+http://ncncha.cloudns.ch:9977/play?id=d5fyhVMAdBI&quality=360p
+#EXTINF:-1,youtube [VOD] 伊朗無人機逼近林肯號航艦　遭F-35C戰機擊落中東戰雲密布？ #少康戰情室 20260204-1 #顏蔚慈 #陳世軒 #董智森 #林郁方 #游淑慧 #徐弘庭
+http://ncncha.cloudns.ch:9977/play?id=SGpANK5CboU&quality=360p
 #EXTINF:-1,youtube [VOD] 【完整版下集】鄭麗文要會習、盧秀燕要訪美 剛柔並濟雙核心布局重返執政路？20260204｜#顏蔚慈 #陳世軒 #董智森 #林郁方 #游淑慧 #徐弘庭
 http://ncncha.cloudns.ch:9977/play?id=1bDGaPyYLz8&quality=360p
-#EXTINF:-1,youtube [VOD] 【#完整版不間斷】傳李四川農曆年前請辭副市長　破釜沉舟直取新北大位？ #少康戰情室 20260204
-http://ncncha.cloudns.ch:9977/play?id=4ebWPv9fjsw&quality=360p
-#EXTINF:-1,youtube [VOD] 【完整版中集】鄭麗文要會習、盧秀燕要訪美 剛柔並濟雙核心布局重返執政路？20260204｜#顏蔚慈 #陳世軒 #董智森 #林郁方 #游淑慧 #徐弘庭
-http://ncncha.cloudns.ch:9977/play?id=SjUck4ED0eQ&quality=360p
-#EXTINF:-1,youtube [VOD] 【完整版上集】王滬寧見蕭旭岑陸委會怒批統戰 國共論壇釋交流合作積極信號？20260204｜#顏蔚慈 #陳世軒 #董智森 #林郁方 #游淑慧 #徐弘庭
-http://ncncha.cloudns.ch:9977/play?id=mD0KCyzSHwM&quality=360p
-#EXTINF:-1,youtube [VOD] 點國民黨面對兩岸議題兩大罩門　沈富雄「九二共室」分析國共論壇 #少康戰情室 #趙少康 #shorts #沈富雄 #國民黨 #兩岸 #國共論壇  20260203
-http://ncncha.cloudns.ch:9977/play?id=PxnWKBow-ZI&quality=360p
-#EXTINF:-1,youtube [VOD] 點國民黨面對兩岸議題兩大罩門　沈富雄「九二共室」分析國共論壇 #少康戰情室
-http://ncncha.cloudns.ch:9977/play?id=28hoA7-gBAM&quality=360p
