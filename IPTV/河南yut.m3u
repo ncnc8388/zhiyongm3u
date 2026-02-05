@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1,youtube [LIVE] 🔴【#完整版24小時不間斷】#新聞大白話 ｜24-Hour Non-Stop Live｜24時間ライブ配信｜시리즈가 왔어요
 http://ncncha.cloudns.ch:9977/play?id=8o3rl1YgbmE&quality=720p
+#EXTINF:-1,youtube [VOD] 艾普斯坦案讓歐美政壇動盪  川普喊清白呼籲各界應放下【#大白話說新聞】#艾普斯坦#政壇#川普
+http://ncncha.cloudns.ch:9977/play?id=5cdAOl_vAaQ&quality=360p
 #EXTINF:-1,youtube [VOD] 傳伊朗讓步願將濃縮鈾交俄  俄軍重啟空襲遭川普「打臉」【#大白話說新聞】#寒流#日本#習近平#普欽
 http://ncncha.cloudns.ch:9977/play?id=d6H7tPDt_UY&quality=360p
 #EXTINF:-1,youtube [VOD] 俄烏又開火！美烏俄三方會談 習近平普欽視訊 融雪釀新危機！強烈寒流襲美 紐約近千人住進庇護所 日本立春氣溫回升 積雪壓垮車庫男子身亡 【#大白話說新聞】#寒流#日本#習近平#普欽
@@ -11,8 +13,6 @@ http://ncncha.cloudns.ch:9977/play?id=w0GUE8Q_Bqw&quality=360p
 http://ncncha.cloudns.ch:9977/play?id=zwvoJN9H9iY&quality=360p
 #EXTINF:-1,youtube [VOD] 【SUB】中俄出手助伊朗 立陶宛認錯中國【#新聞大白話】20260205 #字幕版 #中俄 #立陶宛 #伊朗
 http://ncncha.cloudns.ch:9977/play?id=QueGgAv1ryE&quality=360p
-#EXTINF:-1,youtube [VOD] 柯文哲親征高雄市長選舉？　陳揮文給藍白決定人選「1建議」【#大咖說白話】#陳揮文
-http://ncncha.cloudns.ch:9977/play?id=8tPLWK7bT6I&quality=360p
 #EXTINF:-1,youtube [LIVE] 【鳳凰衛視#24小時直播間 】中國領導人年內訪美？中方：暫無消息提供｜烏美俄三方開始第二天會談｜泰軍指柬埔寨向泰境內發射榴彈 柬方否認｜24-hour live news｜24小时直播间#鳳凰衛視
 http://ncncha.cloudns.ch:9977/play?id=fN9uYWCjQaw&quality=720p
 #EXTINF:-1,youtube [VOD] 鳳凰行天下｜阿聯酋航空副總裁談核心競爭力：藉數據提升服務，以界限守護體驗 #世界政府峰會 #WGS2026 #鳳凰行天下 #PhoenixGoGlocal #阿聯酋航空 #emirates
@@ -27,18 +27,18 @@ http://ncncha.cloudns.ch:9977/play?id=vnL-x-4hbhY&quality=360p
 http://ncncha.cloudns.ch:9977/play?id=TXr1rjNURsc&quality=360p
 #EXTINF:-1,youtube [VOD] 鳳凰行天下｜e&集團CEO預測：6G標準兩年內“出爐”！並在2030年投入使用！#世界政府峰會 #WGS2026 #鳳凰行天下 #PhoenixGoGlocal #阿聯酋 #哈特姆多維達爾 #6g
 http://ncncha.cloudns.ch:9977/play?id=VBz3YHKyXkc&quality=360p
-#EXTINF:-1,youtube [VOD] 【每日必看】台南旅宿空調竄出老鼠 速食店驚見"長毛雞塊" 20260205
-http://ncncha.cloudns.ch:9977/play?id=Qe4EcpV_KBs&quality=360p
-#EXTINF:-1,youtube [VOD] 【每日必看】從出生到最後那一刻 新北打造動物保護Fun城市 20260205
-http://ncncha.cloudns.ch:9977/play?id=c07Dk5zP8Bc&quality=360p
-#EXTINF:-1,youtube [VOD] 【2/5即時新聞】劉世芳拒供陸配立委密件! 監委挪用公務車僅需道歉 殺人免死偷拍兒少免重刑 網怒轟:法官才急需被教化｜中天SUPER夜線 20260205 @中天新聞CtiNews
-http://ncncha.cloudns.ch:9977/play?id=ejCOObvpem4&quality=360p
-#EXTINF:-1,youtube [VOD] 《全程字幕》白宮逆轉 郭正亮發出嚴重警告 中美對台灣的態度 越來越趨近一致 @Guovision-TV  @funseeTW
-http://ncncha.cloudns.ch:9977/play?id=VTOtpPPZEiA&quality=360p
-#EXTINF:-1,youtube [VOD] 【每日必看】高市31秒片9天破1.1億點閱 比米津玄師歌曲誇張 20260205
-http://ncncha.cloudns.ch:9977/play?id=sebi0J_1ZNg&quality=360p
-#EXTINF:-1,youtube [VOD] 【每日必看】政院拒編退警消"調高所得" 千人怒吼喊告"討公道" 20260205
-http://ncncha.cloudns.ch:9977/play?id=N4WmUoItDEE&quality=360p
+#EXTINF:-1,youtube [VOD] 【每日必看】長和實業: 旗下巴拿馬港口公司已咨動仲裁程序 | 陸媒巴拿馬踢鐵板 每天經損80萬美元 20260205｜辣晚報
+http://ncncha.cloudns.ch:9977/play?id=7B5otDBfF1Q&quality=360p
+#EXTINF:-1,youtube [VOD] 【每日必看】32艘艦艇! 伊朗披露美軍兵力部署情況 | 美伊險破 中東9國聯手 20260205｜辣晚報
+http://ncncha.cloudns.ch:9977/play?id=Bv8XfdvnplI&quality=360p
+#EXTINF:-1,youtube [VOD] 【每日必看】現場火藥味濃 美財長被要求閉嘴 | 越南南北高鐵找英國合作 是病急亂技醫? 20260205｜辣晚報
+http://ncncha.cloudns.ch:9977/play?id=u6Trpqvzpgk&quality=360p
+#EXTINF:-1,youtube [VOD] 【每日必看】承認對台“錯了” 立陶宛總理我們一頭撞在火車上 |  立陶宛總理:讓台灣代表表處是｢巨大錯誤｣ 20260205｜辣晚報
+http://ncncha.cloudns.ch:9977/play?id=6JIbkYq69nk&quality=360p
+#EXTINF:-1,youtube [VOD] 《全程字幕》主動打給川普 中美出大事?! 蔡正元曝:這件事驚動到習近平
+http://ncncha.cloudns.ch:9977/play?id=dA95gNGU06A&quality=360p
+#EXTINF:-1,youtube [VOD] 中國強大 台灣就會主動回歸?! 蔡正元一句話挑戰14億人敏感神經
+http://ncncha.cloudns.ch:9977/play?id=hw2FJTHAgHQ&quality=360p
 #EXTINF:-1,youtube [LIVE] 🔴【#完整版24小時不間斷】TVBS 少康戰情室精選特輯 ｜24-Hour Non-Stop Live｜24時間ライブ配信｜시리즈가 왔어요 #趙少康 #戰鬥藍
 http://ncncha.cloudns.ch:9977/play?id=_LVTMyXBTTI&quality=720p
 #EXTINF:-1,youtube [VOD] 【完整版下集黃國昌戰新北自認三點勝過李四川　藍白先各自撐大基本盤再合？20260205｜#李宇翔 #蘭萱 #尹乃菁 #楊智伃 #唐湘龍
