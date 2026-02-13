@@ -329,6 +329,8 @@ if __name__ == "__main__":
         "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_河北电信.txt",
         "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_甘肃电信.txt",
         "https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_湖南电信.txt",
+        "https://raw.githubusercontent.com/wokaotianshi123/zubotv/refs/heads/main/hunanzubo.txt",
+        "https://raw.githubusercontent.com/kakaxi-1/zubo/refs/heads/main/itvlist.txt",
         #"https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_福建电信.txt",
         #"https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_河南电信.txt",
         "https://raw.githubusercontent.com/ncnc8388/zhiyongm3u/refs/heads/main/.github/workflows/IPTV/ITV.txt",
@@ -357,6 +359,7 @@ if __name__ == "__main__":
     # 执行主函数
 
     asyncio.run(main(file_urls, cctv_channel_file, province_channel_files))
+
 
 
 
