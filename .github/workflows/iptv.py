@@ -301,7 +301,7 @@ async def main(file_urls, cctv_channel_file, province_channel_files):
     for file_url in file_urls:
         if file_url.endswith(('.m3u', '.m3u8')):
             valid_urls = await read_and_test_file(file_url, is_m3u=True)
-        elif file_url.endswith('.txt','.nzk'):
+        elif file_url.endswith(('.txt','.nzk')):
             valid_urls = await read_and_test_file(file_url, is_m3u=False)
         else:
             valid_urls = await read_and_test_file(file_url, is_m3u=True)
@@ -336,7 +336,7 @@ if __name__ == "__main__":
         #"https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_河南电信.txt",
         "https://raw.githubusercontent.com/ncnc8388/zhiyongm3u/refs/heads/main/.github/workflows/IPTV/ITV.txt",
         "https://raw.githubusercontent.com/ncnc8388/zhiyongm3u/refs/heads/main/IPTV/河南yut.m3u",
-        "http://rihou.cc:555/gggg.nzk"
+        "http://rihou.cc:555/gggg.nzk",
         #"https://tzdr.com/iptv.txt",
         #"https://live.kilvn.com/iptv.m3u",
         #"https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u",
@@ -361,6 +361,7 @@ if __name__ == "__main__":
     # 执行主函数
 
     asyncio.run(main(file_urls, cctv_channel_file, province_channel_files))
+
 
 
 
