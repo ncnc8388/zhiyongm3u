@@ -1,4 +1,4 @@
-name: IPTV Daily Update
+name: YDIPTV Daily Update
 
 on:
   schedule:
