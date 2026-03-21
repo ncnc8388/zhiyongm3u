@@ -25,7 +25,7 @@ jobs:
       run: pip install aiohttp
 
     - name: Run scraping script
-      run: python .github/hnyd.py
+      run: python ./hnyd.py
 
     - name: GetTime
       run: echo "GET_TIME=$(date +'%Y-%m-%d %H:%M:%S CST')" >> $GITHUB_ENV
