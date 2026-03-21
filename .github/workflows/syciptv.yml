@@ -51,7 +51,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update hndx.m3u from zhidou repo [$(date +'%Y-%m-%d %H:%M')]"
-            git commit -m "Update hnyd.m3u from zhidou repo [$(date +'%Y-%m-%d %H:%M')]"
             git push origin main
           fi
           
