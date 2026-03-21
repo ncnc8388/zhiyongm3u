@@ -46,7 +46,7 @@ jobs:
       - name: Commit and push
         run: |
           cd ncnc8388.github.io
-          git add hndx.m3u
+          git add hndx.m3u hnyd.m3u
           if git diff-index --quiet HEAD --; then
             echo "No changes to commit"
           else
