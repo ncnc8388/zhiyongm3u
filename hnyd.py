@@ -318,7 +318,7 @@ if __name__ == "__main__":
         #"https://mp.leuse.top/proxy?single=true&url=https://fy.188766.xyz/?ip=&lunbo=false&mima=mianfeidehaimaiqian",
        # "https://aktv.space/live.m3u",
         #"https://ncncha.3vdo.club/getm3u8.asp?url=https://fy.188766.xyz/?ip=&lunbo=false&mima=mianfeidehaimaiqian",
-        "https://gist.githubusercontent.com/ncnc8388/fd7fe346617db3b5d609c806d3a1bc35/raw/live.m3u",
+        #"https://gist.githubusercontent.com/ncnc8388/fd7fe346617db3b5d609c806d3a1bc35/raw/live.m3u",
         #"https://1303157606-jbnue8hg1f.ap-guangzhou.tencentscf.com/?url=https://fy.188766.xyz/?ip=&lunbo=false&mima=mianfeidehaimaiqian&haiwai=false",
         #"https://raw.githubusercontent.com/ncnc8388/genxinxia/refs/heads/main/fg.m3u",
         #"https://raw.githubusercontent.com/ncnc8388/ncnc8388.github.io/refs/heads/main/河南电信.m3u",
