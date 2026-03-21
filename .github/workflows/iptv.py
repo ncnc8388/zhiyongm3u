@@ -322,7 +322,7 @@ if __name__ == "__main__":
         #"https://1303157606-jbnue8hg1f.ap-guangzhou.tencentscf.com/?url=https://fy.188766.xyz/?ip=&lunbo=false&mima=mianfeidehaimaiqian&haiwai=false",
         #"https://raw.githubusercontent.com/ncnc8388/genxinxia/refs/heads/main/fg.m3u",
         "https://raw.githubusercontent.com/ncnc8388/ncnc8388.github.io/refs/heads/main/河南电信.m3u",
-        "https://raw.githubusercontent.com/ncnc8388/zhiyongm3u/refs/heads/main/%E6%B2%B3%E5%8D%97%E7%A7%BB%E5%8A%A8.txt",
+        #"https://raw.githubusercontent.com/ncnc8388/zhiyongm3u/refs/heads/main/%E6%B2%B3%E5%8D%97%E7%A7%BB%E5%8A%A8.txt",
         #"https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u",
         #"https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_四川电信.txt",
         #"https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/组播_浙江电信.txt",
