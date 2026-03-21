@@ -35,9 +35,13 @@ jobs:
           if [ -f "ncnc8388.github.io/hndx.m3u" ]; then
             cp ncnc8388.github.io/hndx.m3u ncnc8388.github.io/hndx.m3u.bak
           fi
+           if [ -f "ncnc8388.github.io/hnyd.m3u" ]; then
+            cp ncnc8388.github.io/hnyd.m3u ncnc8388.github.io/hnyd.m3u.bak
+          fi
           
           # 复制新文件
           cp -v best_sorted.m3u ncnc8388.github.io/hndx.m3u
+          cp -v hnyd_sorted.m3u ncnc8388.github.io/hnyd.m3u
 
       - name: Commit and push
         run: |
@@ -47,6 +51,7 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update hndx.m3u from zhidou repo [$(date +'%Y-%m-%d %H:%M')]"
+            git commit -m "Update hnyd.m3u from zhidou repo [$(date +'%Y-%m-%d %H:%M')]"
             git push origin main
           fi
           
