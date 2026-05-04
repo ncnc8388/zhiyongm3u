@@ -1,4 +1,10 @@
 #EXTM3U
+#EXTINF:-1,youtube [LIVE] 🔴LIVE：2026.05.04 新聞大白話【14:00全球開播】
+http://ncncha.cloudns.ch:9977/play?id=Px9TNv0cMZY&quality=720p
+#EXTINF:-1,youtube [VOD] 🔴LIVE：2026.05.04 新聞大白話【14:00全球開播】
+http://ncncha.cloudns.ch:9977/play?id=Px9TNv0cMZY&quality=360p
+#EXTINF:-1,youtube [VOD] 【LIVE】藍白共提宜蘭縣 吳宗憲.陳琬惠開箱民調
+http://ncncha.cloudns.ch:9977/play?id=CzwKVlDhvIg&quality=360p
 #EXTINF:-1,youtube [VOD] 突破重圍！賴清德抵史瓦帝尼！洪秀柱:偷雞摸狗非常丟臉！【#大白話熱焦點】#賴清德 #洪秀柱 #史瓦帝尼 #邦交國 #國際政治
 http://ncncha.cloudns.ch:9977/play?id=tg_FCQnw7SI&quality=360p
 #EXTINF:-1,youtube [VOD] 川普: 敵對已終止；德國批美「被伊朗耍得團團轉。」川普怒嗆要從德國撤軍，德總理梅爾茨：我跟川普關係很好【#大白話熱焦點】#美伊 #中東 #伊朗 #美國 #川普
@@ -7,11 +13,7 @@ http://ncncha.cloudns.ch:9977/play?id=W3B4cCJYGGs&quality=360p
 http://ncncha.cloudns.ch:9977/play?id=BTwysbJ40Us&quality=360p
 #EXTINF:-1,youtube [VOD] 【SUB】中國反制裁美禁令 陸艦對日本出重手【#新聞大白話】20260503 #字幕版 #中國 #美國 #日本
 http://ncncha.cloudns.ch:9977/play?id=ecw1tJUyUKE&quality=360p
-#EXTINF:-1,youtube [VOD] 川普訪華先遣軍機抵達北京 美特工中國貨張雪問誰不服？【#新聞大白話】20260503-12｜#介文汲 #黃征輝 #徐弘庭
-http://ncncha.cloudns.ch:9977/play?id=2Zt-2vMBouw&quality=360p
-#EXTINF:-1,youtube [VOD] 美軍C-17突降北京機場！伊朗豎導彈要出大事了？攻擊21伴飛殲35曝光了！日本拉下臉買俄原油了！賴清德留非洲回不來了？【#新聞大白話】20260503 #完整版 #伊朗 #美軍 #賴清德 #日本
-http://ncncha.cloudns.ch:9977/play?id=yRQn0qxgYUc&quality=360p
-#EXTINF:-1,youtube [LIVE] 【鳳凰衛視#24小時直播間 】伊朗外交部發言人：美國未抓住談判機會｜伊朗外長：美對伊戰爭損失1000億美元｜法國推動霍爾木茲海峽護航準備｜24-hour live news｜24小时直播间#鳳凰衛視
+#EXTINF:-1,youtube [LIVE] 【鳳凰衛視#24小時直播間 】特朗普：伊朗提議不可接受｜美財長貝森特：特朗普不會再次推遲訪華｜美軍：已將扣押的伊朗貨船移交至巴基斯坦｜24-hour live news｜24小时直播间#鳳凰衛視
 http://ncncha.cloudns.ch:9977/play?id=fN9uYWCjQaw&quality=720p
 #EXTINF:-1,youtube [VOD] 時事大破解｜美伊戰火中“撈油錢”？阿聯酋退OPEC單飛：霍爾木茲封鎖困不住、開“側門”賣油暗藏暴利！“退群”惹惱普京 阿聯酋動了俄羅斯的“奶酪”？全球油市格局恐再洗牌！｜20260501#鳳凰衛視
 http://ncncha.cloudns.ch:9977/play?id=I2Hps7LwEbw&quality=360p
@@ -25,27 +27,27 @@ http://ncncha.cloudns.ch:9977/play?id=2rDjjlXn2ic&quality=360p
 http://ncncha.cloudns.ch:9977/play?id=GCpTHA19_xs&quality=360p
 #EXTINF:-1,youtube [VOD] 時事大破解｜特朗普要“戰爭治國”？“戰爭部”回歸：“以戰迫弱”逼全球站隊 下一仗打誰？中美俄競賽加劇：中國三千億軍費被指“冰山一角” 俄靠戰爭續命 世界滑向“準戰爭狀態”？｜20260430#鳳凰衛視
 http://ncncha.cloudns.ch:9977/play?id=5n1uGcvInLM&quality=360p
-#EXTINF:-1,youtube [VOD] 【每日必看】航母五件套 中國輾壓美方｜中國力量 張雪機車奪冠20260503｜辣晚報
-http://ncncha.cloudns.ch:9977/play?id=yVBirM3xCfU&quality=360p
-#EXTINF:-1,youtube [VOD] 【每日必看】貼近台灣 日美將在西南諸島演習｜18艦包夾 狠訓美日菲20260503｜辣晚報
-http://ncncha.cloudns.ch:9977/play?id=QYeP6vC1-2s&quality=360p
-#EXTINF:-1,youtube [VOD] 【每日必看】體驗中國高鐵後 蘇林巨變｜越南高鐵兩難棄日德選中國20260503｜辣晚報
-http://ncncha.cloudns.ch:9977/play?id=vs_SoqKcRXU&quality=360p
-#EXTINF:-1,youtube [VOD] 【每日必看】黃循財這幕 冷靜從容突淚崩｜黃循財柔情 突哽咽3分鐘20260503｜辣晚報
-http://ncncha.cloudns.ch:9977/play?id=A-sDuvfC5o8&quality=360p
-#EXTINF:-1,youtube [VOD] 【全程字幕】張雪機車WSBK封神! 4戰3捷奪"第3冠"震驚全球! 孫大千激讚"中國製造"奇蹟! | 比亞迪不看美國臉色! 孫大千揭陸電動車"制霸真相":能源危機成最強助攻!
-http://ncncha.cloudns.ch:9977/play?id=ArepUxEyW8w&quality=360p
-#EXTINF:-1,youtube [VOD] 阿聯酋叛逃OPEC 四大交易所爆走 雷倩重磅:美英定價權徹底崩盤 五年長線佈局曝光 石油人民幣開啟全新局面
-http://ncncha.cloudns.ch:9977/play?id=aUtrGGiIZq0&quality=360p
-#EXTINF:-1,youtube [VOD] 【完整版下集】盧秀燕發聲:家和萬事才會興 國民黨爆發"軍購之亂"政黨路線爭？20260505｜#沈富雄 #高嘉瑜 #黃揚明 #葉元之 #鍾沛君 #吳怡萱
-http://ncncha.cloudns.ch:9977/play?id=2fl5hJtTX-k&quality=360p
-#EXTINF:-1,youtube [VOD] 【完整版中集】傳賴政府將接洽原廠買核燃料棒拚2028選前到貨 拆彈能源議題？20260505｜#沈富雄 #高嘉瑜 #黃揚明 #葉元之 #鍾沛君 #吳怡萱
-http://ncncha.cloudns.ch:9977/play?id=U_eiZw4hIa4&quality=360p
-#EXTINF:-1,youtube [VOD] 【完整版上集】賴清德元首外交新突破 台灣不放棄走向世界別再內宣凌駕外交？20260505｜#沈富雄 #高嘉瑜 #黃揚明 #葉元之 #鍾沛君 #吳怡萱
-http://ncncha.cloudns.ch:9977/play?id=PJ-5ZVuVHdQ&quality=360p
-#EXTINF:-1,youtube [VOD] 【完整版下集20260502】阿聯退OPEC 撼動全球油價和美元獨霸 #TVBS文茜的世界周報-歐洲版  20260502
-http://ncncha.cloudns.ch:9977/play?id=VGaupB3kegk&quality=360p
-#EXTINF:-1,youtube [VOD] 【完整版上集20260502】川普三度遭孤狼式攻擊 憤怒轉成暴力政治  #tvbs文茜的世界周報  20260502
-http://ncncha.cloudns.ch:9977/play?id=PTsQ7Fa5PXU&quality=360p
-#EXTINF:-1,youtube [VOD] 【本週放大鏡Part.2】數發部：公部門禁用高德地圖！國防部認統戰禁「八佰」！沈伯洋拚顏值與蔣萬安外貌對決？馬鈴薯之亂兩部長同啃洋芋片？林佳龍抵史瓦帝尼自嗨？ #少康戰情室 20260424-0430
-http://ncncha.cloudns.ch:9977/play?id=U5UE-c7HQPk&quality=360p
+#EXTINF:-1,youtube [VOD] 納坦命脈全斷!? 伊朗"公開絞刑以間諜"極度殘忍! 亮哥.張延廷示警:摩薩德完了!
+http://ncncha.cloudns.ch:9977/play?id=wvpJm3Nbzus&quality=360p
+#EXTINF:-1,youtube [VOD] 【全程字幕】川習會台灣成菜單? 彭文正: 台灣對川普來說只是一顆滷蛋
+http://ncncha.cloudns.ch:9977/play?id=0Nrp2I1NM9E&quality=360p
+#EXTINF:-1,youtube [VOD] 【5/4即時新聞】賴"接力式外交"返台?川普訪中鬆動台灣立場？鄭麗文嗆"沒長嘴"?吳宗憲戰宜蘭縣長!伊朗原油被迫關井?｜林佩潔/張雅婷 報新聞 20260504 @中天新聞CtiNews
+http://ncncha.cloudns.ch:9977/play?id=BlWBhLjJUKw&quality=360p
+#EXTINF:-1,youtube [VOD] 【每日必看】BMW狂飆"快到剩殘影"狠奪兩命 害新婚夫妻天人永隔 20260504
+http://ncncha.cloudns.ch:9977/play?id=CqKRdM5OW8o&quality=360p
+#EXTINF:-1,youtube [VOD] 【每日必看】台南女警訃聞列"未婚夫"證實冥婚 專家示警"需再擲筊" 20260504
+http://ncncha.cloudns.ch:9977/play?id=G4V2RBmMaSY&quality=360p
+#EXTINF:-1,youtube [VOD] 【全程字幕】季麟連嗆開除"辣男人"已翻篇?! 鄭麗文霸氣喊話:因為一句話就受傷?國民黨.韓國瑜有那麼脆弱嗎?
+http://ncncha.cloudns.ch:9977/play?id=X2gYOJHJzjE&quality=360p
+#EXTINF:-1,youtube [VOD] 伊朗測射程四千公里導彈了？CNN證實美軍16基地重創了【#新聞大白話】#帥化民 #李大中 #嚴震生
+http://ncncha.cloudns.ch:9977/play?id=ssnImLDg4YE&quality=360p
+#EXTINF:-1,youtube [VOD] 林強諷賴清德軍購撈油水了？不敢台獨的台派集體出征了？【#新聞大白話】#邱毅 #康仁俊 #李柏毅
+http://ncncha.cloudns.ch:9977/play?id=gFg84qak06o&quality=360p
+#EXTINF:-1,youtube [VOD] 賴清德史國專機暗渡陳倉了 陳其邁曾酸偷偷摸摸跑路了【#新聞大白話】#葉元之 #黃揚明 #李明賢
+http://ncncha.cloudns.ch:9977/play?id=cH2a12F1jts&quality=360p
+#EXTINF:-1,youtube [VOD] 網憂賴清德留非洲回不來了？民進黨稱訪友邦重大突破了【#新聞大白話】#謝寒冰 #凌濤 #何景榮
+http://ncncha.cloudns.ch:9977/play?id=3-oLf3wa534&quality=360p
+#EXTINF:-1,youtube [VOD] 疑自拍XX片羅致政突復出了？沈伯洋講三分鐘等於沒講了？【#新聞大白話】#郭正亮 #陳揮文 #李柏毅
+http://ncncha.cloudns.ch:9977/play?id=mvHQBypL9vo&quality=360p
+#EXTINF:-1,youtube [VOD] 【#少康大人物】殲-15強硬攔截日機喊「每次轉彎都在射程內」　中日海空角力升溫？ 20260501｜#沈富雄 #吳崢
+http://ncncha.cloudns.ch:9977/play?id=h7H86QYjxmQ&quality=360p
