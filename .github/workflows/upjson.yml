@@ -1,0 +1,33 @@
+name: Merge JSON Sites
+
+on:
+  schedule:
+    # 每天北京时间凌晨 00:00 运行 (UTC 16:00)
+    # 可根据需要修改 cron 表达式
+    - cron: '0 16 * * *'
+  workflow_dispatch: # 允许你在 GitHub 页面手动点击触发
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run merge script
+        run: python merge_sites.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add merged_output.json
+          # 仅在文件有变动时才提交，避免产生无意义的空 commit
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto update merged sites json" && git push)
