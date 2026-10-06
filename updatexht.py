@@ -1,75 +1,91 @@
+import sys
+import os
+
+# 🔥 核心修复：强制 GitHub Actions 环境使用 UTF-8 编码，防止中文引发 ASCII 报错
+os.environ['PYTHONIOENCODING'] = 'utf-8'
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+
 import json
 import urllib.request
 import urllib.error
-import sys
+import urllib.parse
 
 def main():
-    # 直接使用中文文件名，urllib 会自动进行标准且正确的 URL 编码
-    # 请确保你的 GitHub 仓库中文件名确实是 "ok海豚常规996" (无 .json 后缀)
-    url1 = "https://raw.githubusercontent.com/FGBLH/EHR663/refs/heads/main/ok海豚常规996"
+    # 1. 拆分 URL 并进行显式的 URL 编码
+    base_url1 = "https://raw.githubusercontent.com/FGBLH/EHR663/refs/heads/main/"
+    filename1 = "ok海豚常规996"
+    # quote 会将中文安全地转换为 %E6%B5%B7... 格式
+    url1 = base_url1 + urllib.parse.quote(filename1)
+    
     url2 = "https://raw.githubusercontent.com/ncnc8388/ncnc8388.github.io/refs/heads/main/py.json"
     
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36',
+        'Accept': 'application/vnd.github.v3.raw',
+        'Accept-Language': 'en-US,en;q=0.9'
+    }
     
-    try:
-        print(f"📥 正在获取 URL1: {url1}")
-        req1 = urllib.request.Request(url1, headers=headers)
-        with urllib.request.urlopen(req1) as response:
-            if response.status != 200:
-                raise Exception(f"URL1 返回异常状态码: {response.status}")
-            raw_text1 = response.read().decode('utf-8')
-            
-        print(f"📥 正在获取 URL2: {url2}")
-        req2 = urllib.request.Request(url2, headers=headers)
-        with urllib.request.urlopen(req2) as response:
-            if response.status != 200:
-                raise Exception(f"URL2 返回异常状态码: {response.status}")
-            raw_text2 = response.read().decode('utf-8')
-            
-        # 尝试解析 JSON，如果失败则打印原始内容以便精准排错
+    def fetch_json(url, name):
+        # 使用 encode('utf-8') 确保 print 不会触发 ascii 错误
+        print(f"Fetching {name}: {url}".encode('utf-8').decode('utf-8'))
         try:
-            data1 = json.loads(raw_text1)
-        except json.JSONDecodeError as e:
-            print(f"❌ URL1 返回的不是有效的 JSON！服务器实际返回的内容前 300 个字符为:\n{raw_text1[:300]}")
-            raise e
-            
-        try:
-            data2 = json.loads(raw_text2)
-        except json.JSONDecodeError as e:
-            print(f"❌ URL2 返回的不是有效的 JSON！服务器实际返回的内容前 300 个字符为:\n{raw_text2[:300]}")
-            raise e
-            
-        # 兼容 'sites' 或 'site' 键名
-        list1 = data1.get('sites', data1.get('site', []))
-        list2 = data2.get('sites', data2.get('site', []))
-        
-        if not isinstance(list1, list): list1 = []
-        if not isinstance(list2, list): list2 = []
-        
-        # 核心逻辑：将 list2 的内容添加到 list1 的前面
-        merged_list = list2 + list1
-        print(f"✅ 成功合并，共 {len(merged_list)} 个站点。")
-        
-        if 'sites' in data1:
-            data1['sites'] = merged_list
-        elif 'site' in data1:
-            data1['site'] = merged_list
-        else:
-            data1['sites'] = merged_list
-            
-        output_file = "merged_output.json"
-        with open(output_file, "w", encoding="utf-8") as f:
-            json.dump(data1, f, indent=2, ensure_ascii=False)
-            
-        print(f"✅ 成功保存至 {output_file}")
-        
-    except urllib.error.HTTPError as e:
-        print(f"❌ HTTP 请求被拒绝: {e.code} {e.reason}")
-        print(f"服务器返回信息: {e.read().decode('utf-8')[:300]}")
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=15) as response:
+                status = response.status
+                print(f"   -> HTTP Status: {status}")
+                
+                raw_bytes = response.read()
+                raw_text = raw_bytes.decode('utf-8')
+                
+                if status != 200:
+                    print(f"ERROR: {name} failed. Raw response:\n{raw_text[:500]}")
+                    return None
+                
+                try:
+                    data = json.loads(raw_text)
+                    print(f"   SUCCESS: {name} JSON parsed.")
+                    return data
+                except json.JSONDecodeError as e:
+                    print(f"ERROR: {name} is not valid JSON. Error: {e}")
+                    print(f"   Raw content preview:\n{raw_text[:300]}")
+                    return None
+                    
+        except urllib.error.URLError as e:
+            print(f"ERROR: {name} network request failed: {e}")
+            return None
+        except Exception as e:
+            print(f"ERROR: {name} unknown error: {e}")
+            return None
+
+    data1 = fetch_json(url1, "URL1")
+    data2 = fetch_json(url2, "URL2")
+    
+    if data1 is None or data2 is None:
+        print("Terminating: Failed to fetch data. Check logs above.")
         sys.exit(1)
-    except Exception as e:
-        print(f"❌ 执行失败: {e}")
-        sys.exit(1)
+        
+    list1 = data1.get('sites', data1.get('site', []))
+    list2 = data2.get('sites', data2.get('site', []))
+    
+    if not isinstance(list1, list): list1 = []
+    if not isinstance(list2, list): list2 = []
+    
+    merged_list = list2 + list1
+    print(f"SUCCESS: Merged {len(merged_list)} sites.")
+    
+    if 'sites' in data1:
+        data1['sites'] = merged_list
+    elif 'site' in data1:
+        data1['site'] = merged_list
+    else:
+        data1['sites'] = merged_list
+        
+    output_file = "merged_output.json"
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(data1, f, indent=2, ensure_ascii=False)
+        
+    print(f"SUCCESS: Saved to {output_file}")
 
 if __name__ == "__main__":
     main()
