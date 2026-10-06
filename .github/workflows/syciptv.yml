@@ -38,15 +38,18 @@ jobs:
            if [ -f "ncnc8388.github.io/hnyd.m3u" ]; then
             cp ncnc8388.github.io/hnyd.m3u ncnc8388.github.io/hnyd.m3u.bak
           fi
-          
+           if [ -f "ncnc8388.github.io/xht.json" ]; then
+            cp ncnc8388.github.io/xht.json ncnc8388.github.io/xht.json.bak
+          fi
           # 复制新文件
           cp -v best_sorted.m3u ncnc8388.github.io/hndx.m3u
           cp -v hnyd_sorted.m3u ncnc8388.github.io/hnyd.m3u
+          cp -v merged_output.json ncnc8388.github.io/xht.json
 
       - name: Commit and push
         run: |
           cd ncnc8388.github.io
-          git add hndx.m3u hnyd.m3u
+          git add hndx.m3u hnyd.m3u xht.json
           if git diff-index --quiet HEAD --; then
             echo "No changes to commit"
           else
