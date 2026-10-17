@@ -13,8 +13,8 @@ import urllib.parse
 
 def main():
     # 1. 拆分 URL 并进行显式的 URL 编码
-    base_url1 = "https://raw.githubusercontent.com/FGBLH/EHR663/refs/heads/main/"
-    filename1 = "ok海豚常规996"
+    base_url1 = "https://raw.githubusercontent.com/ncnc8388/ncnc8388.github.io/refs/heads/main"
+    filename1 = "ok海豚常规882"
     # quote 会将中文安全地转换为 %E6%B5%B7... 格式
     url1 = base_url1 + urllib.parse.quote(filename1)
     
